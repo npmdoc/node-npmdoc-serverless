@@ -1,7 +1,7 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
     "buildNpmdoc": "serverless",
-    "description": "api documentation for [serverless (v1.10.2)](https://github.com/serverless/serverless#readme) [![npm package](https://img.shields.io/npm/v/npmdoc-serverless.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-serverless) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-serverless.svg)](https://travis-ci.org/npmdoc/node-npmdoc-serverless)",
+    "description": "#### api documentation for  [serverless (v1.11.0)](https://github.com/serverless/serverless#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-serverless.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-serverless) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-serverless.svg)](https://travis-ci.org/npmdoc/node-npmdoc-serverless)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "serverless": "*",
@@ -36,5 +36,5 @@
         "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.1"
+    "version": "0.0.2"
 }

@@ -1,9 +1,14 @@
-# api documentation for  [serverless (v1.10.2)](https://github.com/serverless/serverless#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-serverless.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-serverless) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-serverless.svg)](https://travis-ci.org/npmdoc/node-npmdoc-serverless)
+# npmdoc-serverless
+
+#### api documentation for  [serverless (v1.11.0)](https://github.com/serverless/serverless#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-serverless.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-serverless) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-serverless.svg)](https://travis-ci.org/npmdoc/node-npmdoc-serverless)
+
 #### Serverless Framework - Build web, mobile and IoT applications with serverless architectures using AWS Lambda, Azure Functions, Google CloudFunctions & more
 
-[![NPM](https://nodei.co/npm/serverless.png?downloads=true)](https://www.npmjs.com/package/serverless)
+[![NPM](https://nodei.co/npm/serverless.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/serverless)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-serverless/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-serverless_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-serverless/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-serverless/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-serverless/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-serverless/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-serverless/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-serverless/build/screenCapture.npmPackageListing.svg)
 
@@ -76,8 +81,8 @@
     },
     "directories": {},
     "dist": {
-        "shasum": "48faa173022441300ea7c3d8bc3f205199cd60d6",
-        "tarball": "https://registry.npmjs.org/serverless/-/serverless-1.10.2.tgz"
+        "shasum": "bb87e11b334ded5249a93b6827704daa885d280c",
+        "tarball": "https://registry.npmjs.org/serverless/-/serverless-1.11.0.tgz"
     },
     "engines": {
         "node": ">=4.0"
@@ -93,7 +98,7 @@
         "LICENSE.txt",
         "CHANGELOG.md"
     ],
-    "gitHead": "b5fc1f4f2c7a5f876b731375d0baa96b588189af",
+    "gitHead": "43edb076e92aa53414d6d652a66f1102aae351a7",
     "homepage": "https://github.com/serverless/serverless#readme",
     "jest": {
         "testRegex": "(\\.|/)(tests)\\.js$",
@@ -122,22 +127,18 @@
     "main": "lib/Serverless.js",
     "maintainers": [
         {
-            "name": "ac360",
-            "email": "austen@servant.co"
+            "name": "ac360"
         },
         {
-            "name": "eahefnawy",
-            "email": "eahefnawy@gmail.com"
+            "name": "eahefnawy"
         },
         {
-            "name": "serverless-main",
-            "email": "services@serverless.com"
+            "name": "serverless-main"
         }
     ],
     "name": "serverless",
     "optionalDependencies": {},
     "preferGlobal": true,
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/serverless/serverless.git"
@@ -150,19 +151,9 @@
         "simple-integration-test": "jest --maxWorkers=5 simple-suite",
         "test": "istanbul cover -x '**/*.test.js' node_modules/mocha/bin/_mocha '!(node_modules)/**/*.test.js' -- --require=sinon-bluebird -R spec --recursive"
     },
-    "version": "1.10.2"
+    "version": "1.11.0"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module serverless](#apidoc.module.serverless)
-
-
-
-# <a name="apidoc.module.serverless"></a>[module serverless](#apidoc.module.serverless)
 
 
 
