@@ -1,346 +1,350 @@
-<svg height="5486" width="720" xmlns="http://www.w3.org/2000/svg">
-<rect height="5486" fill="#555" width="720"></rect>
+<svg height="5550" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="5550" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
-<tspan x="10" y="26">  0.  2017-04-07 11:53:47 +0000  1171284 bytes  .</tspan>
-<tspan x="10" y="42">  1.  2017-04-07 11:53:47 +0000    16567 bytes  CHANGELOG.md</tspan>
-<tspan x="10" y="58">  2.  2017-04-07 11:53:47 +0000     1439 bytes  LICENSE.txt</tspan>
-<tspan x="10" y="74">  3.  2017-04-07 11:53:47 +0000    30797 bytes  README.md</tspan>
-<tspan x="10" y="90">  4.  2017-04-07 11:53:47 +0000      710 bytes  bin/serverless</tspan>
-<tspan x="10" y="106">  5.  2017-04-07 11:53:47 +0000     3704 bytes  lib/Serverless.js</tspan>
-<tspan x="10" y="122">  6.  2017-04-07 11:53:47 +0000     9703 bytes  lib/Serverless.test.js</tspan>
-<tspan x="10" y="138">  7.  2017-04-07 11:53:47 +0000     5767 bytes  lib/classes/CLI.js</tspan>
-<tspan x="10" y="154">  8.  2017-04-07 11:53:47 +0000    10321 bytes  lib/classes/CLI.test.js</tspan>
-<tspan x="10" y="170">  9.  2017-04-07 11:53:47 +0000      344 bytes  lib/classes/Config.js</tspan>
-<tspan x="10" y="186"> 10.  2017-04-07 11:53:47 +0000     1018 bytes  lib/classes/Config.test.js</tspan>
-<tspan x="10" y="202"> 11.  2017-04-07 11:53:47 +0000     2971 bytes  lib/classes/Error.js</tspan>
-<tspan x="10" y="218"> 12.  2017-04-07 11:53:47 +0000     5506 bytes  lib/classes/Error.test.js</tspan>
-<tspan x="10" y="234"> 13.  2017-04-07 11:53:47 +0000     8419 bytes  lib/classes/PluginManager.js</tspan>
-<tspan x="10" y="250"> 14.  2017-04-07 11:53:47 +0000    36134 bytes  lib/classes/PluginManager.test.js</tspan>
-<tspan x="10" y="266"> 15.  2017-04-07 11:53:47 +0000     5780 bytes  lib/classes/Service.js</tspan>
-<tspan x="10" y="282"> 16.  2017-04-07 11:53:47 +0000    21137 bytes  lib/classes/Service.test.js</tspan>
-<tspan x="10" y="298"> 17.  2017-04-07 11:53:47 +0000    10543 bytes  lib/classes/Utils.js</tspan>
-<tspan x="10" y="314"> 18.  2017-04-07 11:53:47 +0000    18028 bytes  lib/classes/Utils.test.js</tspan>
-<tspan x="10" y="330"> 19.  2017-04-07 11:53:47 +0000     9393 bytes  lib/classes/Variables.js</tspan>
-<tspan x="10" y="346"> 20.  2017-04-07 11:53:47 +0000    24043 bytes  lib/classes/Variables.test.js</tspan>
-<tspan x="10" y="362"> 21.  2017-04-07 11:53:47 +0000      749 bytes  lib/classes/YamlParser.js</tspan>
-<tspan x="10" y="378"> 22.  2017-04-07 11:53:47 +0000     2811 bytes  lib/classes/YamlParser.test.js</tspan>
-<tspan x="10" y="394"> 23.  2017-04-07 11:53:47 +0000     1200 bytes  lib/plugins/Plugins.json</tspan>
-<tspan x="10" y="410"> 24.  2017-04-07 11:53:47 +0000     3380 bytes  lib/plugins/aws/configCredentials/awsConfigCrede\</tspan>
+<tspan x="10" y="26">  0.  2017-04-19 13:11:11 +0000  1191639 bytes  .</tspan>
+<tspan x="10" y="42">  1.  2017-04-19 13:11:11 +0000    16852 bytes  CHANGELOG.md</tspan>
+<tspan x="10" y="58">  2.  2017-04-19 13:11:11 +0000     1439 bytes  LICENSE.txt</tspan>
+<tspan x="10" y="74">  3.  2017-04-19 13:11:11 +0000    30854 bytes  README.md</tspan>
+<tspan x="10" y="90">  4.  2017-04-19 13:11:11 +0000      710 bytes  bin/serverless</tspan>
+<tspan x="10" y="106">  5.  2017-04-19 13:11:11 +0000     3704 bytes  lib/Serverless.js</tspan>
+<tspan x="10" y="122">  6.  2017-04-19 13:11:11 +0000     9703 bytes  lib/Serverless.test.js</tspan>
+<tspan x="10" y="138">  7.  2017-04-19 13:11:11 +0000     5767 bytes  lib/classes/CLI.js</tspan>
+<tspan x="10" y="154">  8.  2017-04-19 13:11:11 +0000    10321 bytes  lib/classes/CLI.test.js</tspan>
+<tspan x="10" y="170">  9.  2017-04-19 13:11:11 +0000      344 bytes  lib/classes/Config.js</tspan>
+<tspan x="10" y="186"> 10.  2017-04-19 13:11:11 +0000     1018 bytes  lib/classes/Config.test.js</tspan>
+<tspan x="10" y="202"> 11.  2017-04-19 13:11:11 +0000     2971 bytes  lib/classes/Error.js</tspan>
+<tspan x="10" y="218"> 12.  2017-04-19 13:11:11 +0000     5506 bytes  lib/classes/Error.test.js</tspan>
+<tspan x="10" y="234"> 13.  2017-04-19 13:11:11 +0000     8419 bytes  lib/classes/PluginManager.js</tspan>
+<tspan x="10" y="250"> 14.  2017-04-19 13:11:11 +0000    36134 bytes  lib/classes/PluginManager.test.js</tspan>
+<tspan x="10" y="266"> 15.  2017-04-19 13:11:11 +0000     5780 bytes  lib/classes/Service.js</tspan>
+<tspan x="10" y="282"> 16.  2017-04-19 13:11:11 +0000    21137 bytes  lib/classes/Service.test.js</tspan>
+<tspan x="10" y="298"> 17.  2017-04-19 13:11:11 +0000    10543 bytes  lib/classes/Utils.js</tspan>
+<tspan x="10" y="314"> 18.  2017-04-19 13:11:11 +0000    18028 bytes  lib/classes/Utils.test.js</tspan>
+<tspan x="10" y="330"> 19.  2017-04-19 13:11:11 +0000     9393 bytes  lib/classes/Variables.js</tspan>
+<tspan x="10" y="346"> 20.  2017-04-19 13:11:11 +0000    24043 bytes  lib/classes/Variables.test.js</tspan>
+<tspan x="10" y="362"> 21.  2017-04-19 13:11:11 +0000      749 bytes  lib/classes/YamlParser.js</tspan>
+<tspan x="10" y="378"> 22.  2017-04-19 13:11:11 +0000     2811 bytes  lib/classes/YamlParser.test.js</tspan>
+<tspan x="10" y="394"> 23.  2017-04-19 13:11:11 +0000     1258 bytes  lib/plugins/Plugins.json</tspan>
+<tspan x="10" y="410"> 24.  2017-04-19 13:11:11 +0000     3380 bytes  lib/plugins/aws/configCredentials/awsConfigCrede\</tspan>
 <tspan x="10" y="426">ntials.js</tspan>
-<tspan x="10" y="442"> 25.  2017-04-07 11:53:47 +0000     5906 bytes  lib/plugins/aws/configCredentials/awsConfigCrede\</tspan>
+<tspan x="10" y="442"> 25.  2017-04-19 13:11:11 +0000     5906 bytes  lib/plugins/aws/configCredentials/awsConfigCrede\</tspan>
 <tspan x="10" y="458">ntials.test.js</tspan>
-<tspan x="10" y="474"> 26.  2017-04-07 11:53:47 +0000     2005 bytes  lib/plugins/aws/deploy/compile/events/alexaSkill\</tspan>
+<tspan x="10" y="474"> 26.  2017-04-19 13:11:11 +0000     2005 bytes  lib/plugins/aws/deploy/compile/events/alexaSkill\</tspan>
 <tspan x="10" y="490">/index.js</tspan>
-<tspan x="10" y="506"> 27.  2017-04-07 11:53:47 +0000     3110 bytes  lib/plugins/aws/deploy/compile/events/alexaSkill\</tspan>
+<tspan x="10" y="506"> 27.  2017-04-19 13:11:11 +0000     3110 bytes  lib/plugins/aws/deploy/compile/events/alexaSkill\</tspan>
 <tspan x="10" y="522">/index.test.js</tspan>
-<tspan x="10" y="538"> 28.  2017-04-07 11:53:47 +0000     1828 bytes  lib/plugins/aws/deploy/compile/events/apiGateway\</tspan>
+<tspan x="10" y="538"> 28.  2017-04-19 13:11:11 +0000     1828 bytes  lib/plugins/aws/deploy/compile/events/apiGateway\</tspan>
 <tspan x="10" y="554">/index.js</tspan>
-<tspan x="10" y="570"> 29.  2017-04-07 11:53:47 +0000     3165 bytes  lib/plugins/aws/deploy/compile/events/apiGateway\</tspan>
+<tspan x="10" y="570"> 29.  2017-04-19 13:11:11 +0000     3165 bytes  lib/plugins/aws/deploy/compile/events/apiGateway\</tspan>
 <tspan x="10" y="586">/index.test.js</tspan>
-<tspan x="10" y="602"> 30.  2017-04-07 11:53:47 +0000     1253 bytes  lib/plugins/aws/deploy/compile/events/apiGateway\</tspan>
+<tspan x="10" y="602"> 30.  2017-04-19 13:11:11 +0000     1253 bytes  lib/plugins/aws/deploy/compile/events/apiGateway\</tspan>
 <tspan x="10" y="618">/lib/apiKeys.js</tspan>
-<tspan x="10" y="634"> 31.  2017-04-07 11:53:47 +0000     3126 bytes  lib/plugins/aws/deploy/compile/events/apiGateway\</tspan>
+<tspan x="10" y="634"> 31.  2017-04-19 13:11:11 +0000     3126 bytes  lib/plugins/aws/deploy/compile/events/apiGateway\</tspan>
 <tspan x="10" y="650">/lib/apiKeys.test.js</tspan>
-<tspan x="10" y="666"> 32.  2017-04-07 11:53:47 +0000     1764 bytes  lib/plugins/aws/deploy/compile/events/apiGateway\</tspan>
+<tspan x="10" y="666"> 32.  2017-04-19 13:11:11 +0000     1764 bytes  lib/plugins/aws/deploy/compile/events/apiGateway\</tspan>
 <tspan x="10" y="682">/lib/authorizers.js</tspan>
-<tspan x="10" y="698"> 33.  2017-04-07 11:53:47 +0000     4580 bytes  lib/plugins/aws/deploy/compile/events/apiGateway\</tspan>
+<tspan x="10" y="698"> 33.  2017-04-19 13:11:11 +0000     4580 bytes  lib/plugins/aws/deploy/compile/events/apiGateway\</tspan>
 <tspan x="10" y="714">/lib/authorizers.test.js</tspan>
-<tspan x="10" y="730"> 34.  2017-04-07 11:53:47 +0000     2555 bytes  lib/plugins/aws/deploy/compile/events/apiGateway\</tspan>
+<tspan x="10" y="730"> 34.  2017-04-19 13:11:11 +0000     2555 bytes  lib/plugins/aws/deploy/compile/events/apiGateway\</tspan>
 <tspan x="10" y="746">/lib/cors.js</tspan>
-<tspan x="10" y="762"> 35.  2017-04-07 11:53:47 +0000     7646 bytes  lib/plugins/aws/deploy/compile/events/apiGateway\</tspan>
+<tspan x="10" y="762"> 35.  2017-04-19 13:11:11 +0000     7646 bytes  lib/plugins/aws/deploy/compile/events/apiGateway\</tspan>
 <tspan x="10" y="778">/lib/cors.test.js</tspan>
-<tspan x="10" y="794"> 36.  2017-04-07 11:53:47 +0000     1152 bytes  lib/plugins/aws/deploy/compile/events/apiGateway\</tspan>
+<tspan x="10" y="794"> 36.  2017-04-19 13:11:11 +0000     1152 bytes  lib/plugins/aws/deploy/compile/events/apiGateway\</tspan>
 <tspan x="10" y="810">/lib/deployment.js</tspan>
-<tspan x="10" y="826"> 37.  2017-04-07 11:53:47 +0000     2234 bytes  lib/plugins/aws/deploy/compile/events/apiGateway\</tspan>
+<tspan x="10" y="826"> 37.  2017-04-19 13:11:11 +0000     2234 bytes  lib/plugins/aws/deploy/compile/events/apiGateway\</tspan>
 <tspan x="10" y="842">/lib/deployment.test.js</tspan>
-<tspan x="10" y="858"> 38.  2017-04-07 11:53:47 +0000      786 bytes  lib/plugins/aws/deploy/compile/events/apiGateway\</tspan>
+<tspan x="10" y="858"> 38.  2017-04-19 13:11:11 +0000      786 bytes  lib/plugins/aws/deploy/compile/events/apiGateway\</tspan>
 <tspan x="10" y="874">/lib/method/authorization.js</tspan>
-<tspan x="10" y="890"> 39.  2017-04-07 11:53:47 +0000     2680 bytes  lib/plugins/aws/deploy/compile/events/apiGateway\</tspan>
+<tspan x="10" y="890"> 39.  2017-04-19 13:11:11 +0000     2680 bytes  lib/plugins/aws/deploy/compile/events/apiGateway\</tspan>
 <tspan x="10" y="906">/lib/method/index.js</tspan>
-<tspan x="10" y="922"> 40.  2017-04-07 11:53:47 +0000    32804 bytes  lib/plugins/aws/deploy/compile/events/apiGateway\</tspan>
+<tspan x="10" y="922"> 40.  2017-04-19 13:11:11 +0000    32804 bytes  lib/plugins/aws/deploy/compile/events/apiGateway\</tspan>
 <tspan x="10" y="938">/lib/method/index.test.js</tspan>
-<tspan x="10" y="954"> 41.  2017-04-07 11:53:47 +0000     4673 bytes  lib/plugins/aws/deploy/compile/events/apiGateway\</tspan>
+<tspan x="10" y="954"> 41.  2017-04-19 13:11:11 +0000     4673 bytes  lib/plugins/aws/deploy/compile/events/apiGateway\</tspan>
 <tspan x="10" y="970">/lib/method/integration.js</tspan>
-<tspan x="10" y="986"> 42.  2017-04-07 11:53:47 +0000     1456 bytes  lib/plugins/aws/deploy/compile/events/apiGateway\</tspan>
+<tspan x="10" y="986"> 42.  2017-04-19 13:11:11 +0000     1456 bytes  lib/plugins/aws/deploy/compile/events/apiGateway\</tspan>
 <tspan x="10" y="1002">/lib/method/responses.js</tspan>
-<tspan x="10" y="1018"> 43.  2017-04-07 11:53:47 +0000     1984 bytes  lib/plugins/aws/deploy/compile/events/apiGateway\</tspan>
+<tspan x="10" y="1018"> 43.  2017-04-19 13:11:11 +0000     1984 bytes  lib/plugins/aws/deploy/compile/events/apiGateway\</tspan>
 <tspan x="10" y="1034">/lib/permissions.js</tspan>
-<tspan x="10" y="1050"> 44.  2017-04-07 11:53:47 +0000     3756 bytes  lib/plugins/aws/deploy/compile/events/apiGateway\</tspan>
+<tspan x="10" y="1050"> 44.  2017-04-19 13:11:11 +0000     3756 bytes  lib/plugins/aws/deploy/compile/events/apiGateway\</tspan>
 <tspan x="10" y="1066">/lib/permissions.test.js</tspan>
-<tspan x="10" y="1082"> 45.  2017-04-07 11:53:47 +0000     2104 bytes  lib/plugins/aws/deploy/compile/events/apiGateway\</tspan>
+<tspan x="10" y="1082"> 45.  2017-04-19 13:11:11 +0000     2104 bytes  lib/plugins/aws/deploy/compile/events/apiGateway\</tspan>
 <tspan x="10" y="1098">/lib/resources.js</tspan>
-<tspan x="10" y="1114"> 46.  2017-04-07 11:53:47 +0000     6430 bytes  lib/plugins/aws/deploy/compile/events/apiGateway\</tspan>
+<tspan x="10" y="1114"> 46.  2017-04-19 13:11:11 +0000     6430 bytes  lib/plugins/aws/deploy/compile/events/apiGateway\</tspan>
 <tspan x="10" y="1130">/lib/resources.test.js</tspan>
-<tspan x="10" y="1146"> 47.  2017-04-07 11:53:47 +0000      530 bytes  lib/plugins/aws/deploy/compile/events/apiGateway\</tspan>
+<tspan x="10" y="1146"> 47.  2017-04-19 13:11:11 +0000      530 bytes  lib/plugins/aws/deploy/compile/events/apiGateway\</tspan>
 <tspan x="10" y="1162">/lib/restApi.js</tspan>
-<tspan x="10" y="1178"> 48.  2017-04-07 11:53:47 +0000     1549 bytes  lib/plugins/aws/deploy/compile/events/apiGateway\</tspan>
+<tspan x="10" y="1178"> 48.  2017-04-19 13:11:11 +0000     1549 bytes  lib/plugins/aws/deploy/compile/events/apiGateway\</tspan>
 <tspan x="10" y="1194">/lib/restApi.test.js</tspan>
-<tspan x="10" y="1210"> 49.  2017-04-07 11:53:47 +0000    12800 bytes  lib/plugins/aws/deploy/compile/events/apiGateway\</tspan>
+<tspan x="10" y="1210"> 49.  2017-04-19 13:11:11 +0000    12800 bytes  lib/plugins/aws/deploy/compile/events/apiGateway\</tspan>
 <tspan x="10" y="1226">/lib/validate.js</tspan>
-<tspan x="10" y="1242"> 50.  2017-04-07 11:53:47 +0000    30539 bytes  lib/plugins/aws/deploy/compile/events/apiGateway\</tspan>
+<tspan x="10" y="1242"> 50.  2017-04-19 13:11:11 +0000    30539 bytes  lib/plugins/aws/deploy/compile/events/apiGateway\</tspan>
 <tspan x="10" y="1258">/lib/validate.test.js</tspan>
-<tspan x="10" y="1274"> 51.  2017-04-07 11:53:47 +0000     4825 bytes  lib/plugins/aws/deploy/compile/events/cloudWatch\</tspan>
+<tspan x="10" y="1274"> 51.  2017-04-19 13:11:11 +0000     4825 bytes  lib/plugins/aws/deploy/compile/events/cloudWatch\</tspan>
 <tspan x="10" y="1290">Event/index.js</tspan>
-<tspan x="10" y="1306"> 52.  2017-04-07 11:53:47 +0000    10916 bytes  lib/plugins/aws/deploy/compile/events/cloudWatch\</tspan>
+<tspan x="10" y="1306"> 52.  2017-04-19 13:11:11 +0000    10916 bytes  lib/plugins/aws/deploy/compile/events/cloudWatch\</tspan>
 <tspan x="10" y="1322">Event/index.test.js</tspan>
-<tspan x="10" y="1338"> 53.  2017-04-07 11:53:47 +0000     3980 bytes  lib/plugins/aws/deploy/compile/events/iot/index.\</tspan>
-<tspan x="10" y="1354">js</tspan>
-<tspan x="10" y="1370"> 54.  2017-04-07 11:53:47 +0000     8609 bytes  lib/plugins/aws/deploy/compile/events/iot/index.\</tspan>
-<tspan x="10" y="1386">test.js</tspan>
-<tspan x="10" y="1402"> 55.  2017-04-07 11:53:47 +0000     6757 bytes  lib/plugins/aws/deploy/compile/events/s3/index.j\</tspan>
-<tspan x="10" y="1418">s</tspan>
-<tspan x="10" y="1434"> 56.  2017-04-07 11:53:47 +0000     5908 bytes  lib/plugins/aws/deploy/compile/events/s3/index.t\</tspan>
-<tspan x="10" y="1450">est.js</tspan>
-<tspan x="10" y="1466"> 57.  2017-04-07 11:53:47 +0000     5311 bytes  lib/plugins/aws/deploy/compile/events/schedule/i\</tspan>
-<tspan x="10" y="1482">ndex.js</tspan>
-<tspan x="10" y="1498"> 58.  2017-04-07 11:53:47 +0000     9561 bytes  lib/plugins/aws/deploy/compile/events/schedule/i\</tspan>
-<tspan x="10" y="1514">ndex.test.js</tspan>
-<tspan x="10" y="1530"> 59.  2017-04-07 11:53:47 +0000     4932 bytes  lib/plugins/aws/deploy/compile/events/sns/index.\</tspan>
-<tspan x="10" y="1546">js</tspan>
-<tspan x="10" y="1562"> 60.  2017-04-07 11:53:47 +0000     5292 bytes  lib/plugins/aws/deploy/compile/events/sns/index.\</tspan>
-<tspan x="10" y="1578">test.js</tspan>
-<tspan x="10" y="1594"> 61.  2017-04-07 11:53:47 +0000     8422 bytes  lib/plugins/aws/deploy/compile/events/stream/ind\</tspan>
-<tspan x="10" y="1610">ex.js</tspan>
-<tspan x="10" y="1626"> 62.  2017-04-07 11:53:47 +0000    26202 bytes  lib/plugins/aws/deploy/compile/events/stream/ind\</tspan>
-<tspan x="10" y="1642">ex.test.js</tspan>
-<tspan x="10" y="1658"> 63.  2017-04-07 11:53:47 +0000     8919 bytes  lib/plugins/aws/deploy/compile/functions/index.j\</tspan>
-<tspan x="10" y="1674">s</tspan>
-<tspan x="10" y="1690"> 64.  2017-04-07 11:53:47 +0000    37378 bytes  lib/plugins/aws/deploy/compile/functions/index.t\</tspan>
-<tspan x="10" y="1706">est.js</tspan>
-<tspan x="10" y="1722"> 65.  2017-04-07 11:53:47 +0000     2060 bytes  lib/plugins/aws/deploy/index.js</tspan>
-<tspan x="10" y="1738"> 66.  2017-04-07 11:53:47 +0000     4176 bytes  lib/plugins/aws/deploy/index.test.js</tspan>
-<tspan x="10" y="1754"> 67.  2017-04-07 11:53:47 +0000     1756 bytes  lib/plugins/aws/deploy/lib/cleanupS3Bucket.js</tspan>
-<tspan x="10" y="1770"> 68.  2017-04-07 11:53:47 +0000     9852 bytes  lib/plugins/aws/deploy/lib/cleanupS3Bucket.test.\</tspan>
-<tspan x="10" y="1786">js</tspan>
-<tspan x="10" y="1802"> 69.  2017-04-07 11:53:47 +0000     1741 bytes  lib/plugins/aws/deploy/lib/configureStack.js</tspan>
-<tspan x="10" y="1818"> 70.  2017-04-07 11:53:47 +0000     4448 bytes  lib/plugins/aws/deploy/lib/configureStack.test.j\</tspan>
-<tspan x="10" y="1834">s</tspan>
-<tspan x="10" y="1850"> 71.  2017-04-07 11:53:47 +0000      363 bytes  lib/plugins/aws/deploy/lib/core-cloudformation-t\</tspan>
-<tspan x="10" y="1866">emplate.json</tspan>
-<tspan x="10" y="1882"> 72.  2017-04-07 11:53:47 +0000     3239 bytes  lib/plugins/aws/deploy/lib/createStack.js</tspan>
-<tspan x="10" y="1898"> 73.  2017-04-07 11:53:47 +0000     8819 bytes  lib/plugins/aws/deploy/lib/createStack.test.js</tspan>
-<tspan x="10" y="1914"> 74.  2017-04-07 11:53:47 +0000      453 bytes  lib/plugins/aws/deploy/lib/generateArtifactDirec\</tspan>
-<tspan x="10" y="1930">toryName.js</tspan>
-<tspan x="10" y="1946"> 75.  2017-04-07 11:53:47 +0000      751 bytes  lib/plugins/aws/deploy/lib/generateArtifactDirec\</tspan>
-<tspan x="10" y="1962">toryName.test.js</tspan>
-<tspan x="10" y="1978"> 76.  2017-04-07 11:53:47 +0000      915 bytes  lib/plugins/aws/deploy/lib/iam-role-lambda-execu\</tspan>
-<tspan x="10" y="1994">tion-template.json</tspan>
-<tspan x="10" y="2010"> 77.  2017-04-07 11:53:47 +0000      617 bytes  lib/plugins/aws/deploy/lib/mergeCustomProviderRe\</tspan>
-<tspan x="10" y="2026">sources.js</tspan>
-<tspan x="10" y="2042"> 78.  2017-04-07 11:53:47 +0000     5977 bytes  lib/plugins/aws/deploy/lib/mergeCustomProviderRe\</tspan>
-<tspan x="10" y="2058">sources.test.js</tspan>
-<tspan x="10" y="2074"> 79.  2017-04-07 11:53:47 +0000     5940 bytes  lib/plugins/aws/deploy/lib/mergeIamTemplates.js</tspan>
-<tspan x="10" y="2090"> 80.  2017-04-07 11:53:47 +0000    16071 bytes  lib/plugins/aws/deploy/lib/mergeIamTemplates.tes\</tspan>
-<tspan x="10" y="2106">t.js</tspan>
-<tspan x="10" y="2122"> 81.  2017-04-07 11:53:47 +0000     2626 bytes  lib/plugins/aws/deploy/lib/uploadArtifacts.js</tspan>
-<tspan x="10" y="2138"> 82.  2017-04-07 11:53:47 +0000     7857 bytes  lib/plugins/aws/deploy/lib/uploadArtifacts.test.\</tspan>
-<tspan x="10" y="2154">js</tspan>
-<tspan x="10" y="2170"> 83.  2017-04-07 11:53:47 +0000     2924 bytes  lib/plugins/aws/deployFunction/index.js</tspan>
-<tspan x="10" y="2186"> 84.  2017-04-07 11:53:47 +0000     7175 bytes  lib/plugins/aws/deployFunction/index.test.js</tspan>
-<tspan x="10" y="2202"> 85.  2017-04-07 11:53:47 +0000     2090 bytes  lib/plugins/aws/deployList/index.js</tspan>
-<tspan x="10" y="2218"> 86.  2017-04-07 11:53:47 +0000     3678 bytes  lib/plugins/aws/deployList/index.test.js</tspan>
-<tspan x="10" y="2234"> 87.  2017-04-07 11:53:47 +0000     2436 bytes  lib/plugins/aws/info/display.js</tspan>
-<tspan x="10" y="2250"> 88.  2017-04-07 11:53:47 +0000     7510 bytes  lib/plugins/aws/info/display.test.js</tspan>
-<tspan x="10" y="2266"> 89.  2017-04-07 11:53:47 +0000     1174 bytes  lib/plugins/aws/info/getApiKeyValues.js</tspan>
-<tspan x="10" y="2282"> 90.  2017-04-07 11:53:47 +0000     2963 bytes  lib/plugins/aws/info/getApiKeyValues.test.js</tspan>
-<tspan x="10" y="2298"> 91.  2017-04-07 11:53:47 +0000     1588 bytes  lib/plugins/aws/info/getStackInfo.js</tspan>
-<tspan x="10" y="2314"> 92.  2017-04-07 11:53:47 +0000     4421 bytes  lib/plugins/aws/info/getStackInfo.test.js</tspan>
-<tspan x="10" y="2330"> 93.  2017-04-07 11:53:47 +0000     1118 bytes  lib/plugins/aws/info/index.js</tspan>
-<tspan x="10" y="2346"> 94.  2017-04-07 11:53:47 +0000     2770 bytes  lib/plugins/aws/info/index.test.js</tspan>
-<tspan x="10" y="2362"> 95.  2017-04-07 11:53:47 +0000     4018 bytes  lib/plugins/aws/invoke/index.js</tspan>
-<tspan x="10" y="2378"> 96.  2017-04-07 11:53:47 +0000     8505 bytes  lib/plugins/aws/invoke/index.test.js</tspan>
-<tspan x="10" y="2394"> 97.  2017-04-07 11:53:47 +0000      197 bytes  lib/plugins/aws/invokeLocal/fixture/handlerWithE\</tspan>
-<tspan x="10" y="2410">rror.js</tspan>
-<tspan x="10" y="2426"> 98.  2017-04-07 11:53:47 +0000      468 bytes  lib/plugins/aws/invokeLocal/fixture/handlerWithS\</tspan>
-<tspan x="10" y="2442">uccess.js</tspan>
-<tspan x="10" y="2458"> 99.  2017-04-07 11:53:47 +0000     7288 bytes  lib/plugins/aws/invokeLocal/index.js</tspan>
-<tspan x="10" y="2474">100.  2017-04-07 11:53:47 +0000    14461 bytes  lib/plugins/aws/invokeLocal/index.test.js</tspan>
-<tspan x="10" y="2490">101.  2017-04-07 11:53:47 +0000     1599 bytes  lib/plugins/aws/invokeLocal/invoke.py</tspan>
-<tspan x="10" y="2506">102.  2017-04-07 11:53:47 +0000     6160 bytes  lib/plugins/aws/lib/monitorStack.js</tspan>
-<tspan x="10" y="2522">103.  2017-04-07 11:53:47 +0000    22818 bytes  lib/plugins/aws/lib/monitorStack.test.js</tspan>
-<tspan x="10" y="2538">104.  2017-04-07 11:53:47 +0000     8457 bytes  lib/plugins/aws/lib/naming.js</tspan>
-<tspan x="10" y="2554">105.  2017-04-07 11:53:47 +0000    15670 bytes  lib/plugins/aws/lib/naming.test.js</tspan>
-<tspan x="10" y="2570">106.  2017-04-07 11:53:47 +0000      437 bytes  lib/plugins/aws/lib/setBucketName.js</tspan>
-<tspan x="10" y="2586">107.  2017-04-07 11:53:47 +0000     1917 bytes  lib/plugins/aws/lib/setBucketName.test.js</tspan>
-<tspan x="10" y="2602">108.  2017-04-07 11:53:47 +0000     3906 bytes  lib/plugins/aws/lib/updateStack.js</tspan>
-<tspan x="10" y="2618">109.  2017-04-07 11:53:47 +0000     8417 bytes  lib/plugins/aws/lib/updateStack.test.js</tspan>
-<tspan x="10" y="2634">110.  2017-04-07 11:53:47 +0000     2567 bytes  lib/plugins/aws/lib/validate.js</tspan>
-<tspan x="10" y="2650">111.  2017-04-07 11:53:47 +0000     5505 bytes  lib/plugins/aws/lib/validate.test.js</tspan>
-<tspan x="10" y="2666">112.  2017-04-07 11:53:47 +0000     4463 bytes  lib/plugins/aws/logs/index.js</tspan>
-<tspan x="10" y="2682">113.  2017-04-07 11:53:47 +0000     8999 bytes  lib/plugins/aws/logs/index.test.js</tspan>
-<tspan x="10" y="2698">114.  2017-04-07 11:53:47 +0000     4408 bytes  lib/plugins/aws/metrics/awsMetrics.js</tspan>
-<tspan x="10" y="2714">115.  2017-04-07 11:53:47 +0000    18736 bytes  lib/plugins/aws/metrics/awsMetrics.test.js</tspan>
-<tspan x="10" y="2730">116.  2017-04-07 11:53:47 +0000     7685 bytes  lib/plugins/aws/provider/awsProvider.js</tspan>
-<tspan x="10" y="2746">117.  2017-04-07 11:53:47 +0000    19811 bytes  lib/plugins/aws/provider/awsProvider.test.js</tspan>
-<tspan x="10" y="2762">118.  2017-04-07 11:53:47 +0000      773 bytes  lib/plugins/aws/remove/index.js</tspan>
-<tspan x="10" y="2778">119.  2017-04-07 11:53:47 +0000     1930 bytes  lib/plugins/aws/remove/index.test.js</tspan>
-<tspan x="10" y="2794">120.  2017-04-07 11:53:47 +0000     1475 bytes  lib/plugins/aws/remove/lib/bucket.js</tspan>
-<tspan x="10" y="2810">121.  2017-04-07 11:53:47 +0000     5133 bytes  lib/plugins/aws/remove/lib/bucket.test.js</tspan>
-<tspan x="10" y="2826">122.  2017-04-07 11:53:47 +0000      711 bytes  lib/plugins/aws/remove/lib/stack.js</tspan>
-<tspan x="10" y="2842">123.  2017-04-07 11:53:47 +0000     2002 bytes  lib/plugins/aws/remove/lib/stack.test.js</tspan>
-<tspan x="10" y="2858">124.  2017-04-07 11:53:47 +0000     2485 bytes  lib/plugins/aws/rollback/index.js</tspan>
-<tspan x="10" y="2874">125.  2017-04-07 11:53:47 +0000     5737 bytes  lib/plugins/aws/rollback/index.test.js</tspan>
-<tspan x="10" y="2890">126.  2017-04-07 11:53:47 +0000      602 bytes  lib/plugins/aws/utils/findAndGroupDeployments.js</tspan>
-<tspan x="10" y="2906">127.  2017-04-07 11:53:47 +0000     2286 bytes  lib/plugins/aws/utils/findAndGroupDeployments.te\</tspan>
-<tspan x="10" y="2922">st.js</tspan>
-<tspan x="10" y="2938">128.  2017-04-07 11:53:47 +0000      216 bytes  lib/plugins/aws/utils/getS3ObjectsFromStacks.js</tspan>
-<tspan x="10" y="2954">129.  2017-04-07 11:53:47 +0000     1582 bytes  lib/plugins/aws/utils/getS3ObjectsFromStacks.tes\</tspan>
-<tspan x="10" y="2970">t.js</tspan>
-<tspan x="10" y="2986">130.  2017-04-07 11:53:47 +0000     1521 bytes  lib/plugins/config/config.js</tspan>
-<tspan x="10" y="3002">131.  2017-04-07 11:53:47 +0000     2281 bytes  lib/plugins/config/config.test.js</tspan>
-<tspan x="10" y="3018">132.  2017-04-07 11:53:47 +0000     5428 bytes  lib/plugins/create/create.js</tspan>
-<tspan x="10" y="3034">133.  2017-04-07 11:53:47 +0000    18419 bytes  lib/plugins/create/create.test.js</tspan>
-<tspan x="10" y="3050">134.  2017-04-07 11:53:47 +0000      112 bytes  lib/plugins/create/templates/aws-csharp/Assembly\</tspan>
-<tspan x="10" y="3066">Info.cs</tspan>
-<tspan x="10" y="3082">135.  2017-04-07 11:53:47 +0000      768 bytes  lib/plugins/create/templates/aws-csharp/Handler.\</tspan>
-<tspan x="10" y="3098">cs</tspan>
-<tspan x="10" y="3114">136.  2017-04-07 11:53:47 +0000      737 bytes  lib/plugins/create/templates/aws-csharp/build.ps\</tspan>
-<tspan x="10" y="3130">1</tspan>
-<tspan x="10" y="3146">137.  2017-04-07 11:53:47 +0000      235 bytes  lib/plugins/create/templates/aws-csharp/build.sh</tspan>
-<tspan x="10" y="3162">138.  2017-04-07 11:53:47 +0000     3838 bytes  lib/plugins/create/templates/aws-csharp/gitignor\</tspan>
-<tspan x="10" y="3178">e</tspan>
-<tspan x="10" y="3194">139.  2017-04-07 11:53:47 +0000      560 bytes  lib/plugins/create/templates/aws-csharp/project.\</tspan>
-<tspan x="10" y="3210">json</tspan>
-<tspan x="10" y="3226">140.  2017-04-07 11:53:47 +0000     2699 bytes  lib/plugins/create/templates/aws-csharp/serverle\</tspan>
-<tspan x="10" y="3242">ss.yml</tspan>
-<tspan x="10" y="3258">141.  2017-04-07 11:53:47 +0000      965 bytes  lib/plugins/create/templates/aws-groovy-gradle/b\</tspan>
-<tspan x="10" y="3274">uild.gradle</tspan>
-<tspan x="10" y="3290">142.  2017-04-07 11:53:47 +0000      136 bytes  lib/plugins/create/templates/aws-groovy-gradle/g\</tspan>
-<tspan x="10" y="3306">itignore</tspan>
-<tspan x="10" y="3322">143.  2017-04-07 11:53:47 +0000    54227 bytes  lib/plugins/create/templates/aws-groovy-gradle/g\</tspan>
-<tspan x="10" y="3338">radle/wrapper/gradle-wrapper.jar</tspan>
-<tspan x="10" y="3354">144.  2017-04-07 11:53:47 +0000      232 bytes  lib/plugins/create/templates/aws-groovy-gradle/g\</tspan>
-<tspan x="10" y="3370">radle/wrapper/gradle-wrapper.properties</tspan>
-<tspan x="10" y="3386">145.  2017-04-07 11:53:47 +0000     5299 bytes  lib/plugins/create/templates/aws-groovy-gradle/g\</tspan>
-<tspan x="10" y="3402">radlew</tspan>
-<tspan x="10" y="3418">146.  2017-04-07 11:53:47 +0000     2176 bytes  lib/plugins/create/templates/aws-groovy-gradle/g\</tspan>
-<tspan x="10" y="3434">radlew.bat</tspan>
-<tspan x="10" y="3450">147.  2017-04-07 11:53:47 +0000     2613 bytes  lib/plugins/create/templates/aws-groovy-gradle/s\</tspan>
-<tspan x="10" y="3466">erverless.yml</tspan>
-<tspan x="10" y="3482">148.  2017-04-07 11:53:47 +0000      217 bytes  lib/plugins/create/templates/aws-groovy-gradle/s\</tspan>
-<tspan x="10" y="3498">rc/main/groovy/com/serverless/ApiGatewayResponse.groovy</tspan>
-<tspan x="10" y="3514">149.  2017-04-07 11:53:47 +0000      853 bytes  lib/plugins/create/templates/aws-groovy-gradle/s\</tspan>
-<tspan x="10" y="3530">rc/main/groovy/com/serverless/Handler.groovy</tspan>
-<tspan x="10" y="3546">150.  2017-04-07 11:53:47 +0000      305 bytes  lib/plugins/create/templates/aws-groovy-gradle/s\</tspan>
-<tspan x="10" y="3562">rc/main/groovy/com/serverless/Response.groovy</tspan>
-<tspan x="10" y="3578">151.  2017-04-07 11:53:47 +0000      291 bytes  lib/plugins/create/templates/aws-groovy-gradle/s\</tspan>
-<tspan x="10" y="3594">rc/main/resources/log4j.properties</tspan>
-<tspan x="10" y="3610">152.  2017-04-07 11:53:47 +0000     1095 bytes  lib/plugins/create/templates/aws-java-gradle/bui\</tspan>
-<tspan x="10" y="3626">ld.gradle</tspan>
-<tspan x="10" y="3642">153.  2017-04-07 11:53:47 +0000      136 bytes  lib/plugins/create/templates/aws-java-gradle/git\</tspan>
-<tspan x="10" y="3658">ignore</tspan>
-<tspan x="10" y="3674">154.  2017-04-07 11:53:47 +0000    54227 bytes  lib/plugins/create/templates/aws-java-gradle/gra\</tspan>
-<tspan x="10" y="3690">dle/wrapper/gradle-wrapper.jar</tspan>
-<tspan x="10" y="3706">155.  2017-04-07 11:53:47 +0000      232 bytes  lib/plugins/create/templates/aws-java-gradle/gra\</tspan>
-<tspan x="10" y="3722">dle/wrapper/gradle-wrapper.properties</tspan>
-<tspan x="10" y="3738">156.  2017-04-07 11:53:47 +0000     5299 bytes  lib/plugins/create/templates/aws-java-gradle/gra\</tspan>
-<tspan x="10" y="3754">dlew</tspan>
-<tspan x="10" y="3770">157.  2017-04-07 11:53:47 +0000     2260 bytes  lib/plugins/create/templates/aws-java-gradle/gra\</tspan>
-<tspan x="10" y="3786">dlew.bat</tspan>
-<tspan x="10" y="3802">158.  2017-04-07 11:53:47 +0000     2611 bytes  lib/plugins/create/templates/aws-java-gradle/ser\</tspan>
-<tspan x="10" y="3818">verless.yml</tspan>
-<tspan x="10" y="3834">159.  2017-04-07 11:53:47 +0000     3346 bytes  lib/plugins/create/templates/aws-java-gradle/src\</tspan>
-<tspan x="10" y="3850">/main/java/com/serverless/ApiGatewayResponse.java</tspan>
-<tspan x="10" y="3866">160.  2017-04-07 11:53:47 +0000      825 bytes  lib/plugins/create/templates/aws-java-gradle/src\</tspan>
-<tspan x="10" y="3882">/main/java/com/serverless/Handler.java</tspan>
-<tspan x="10" y="3898">161.  2017-04-07 11:53:47 +0000      385 bytes  lib/plugins/create/templates/aws-java-gradle/src\</tspan>
-<tspan x="10" y="3914">/main/java/com/serverless/Response.java</tspan>
-<tspan x="10" y="3930">162.  2017-04-07 11:53:47 +0000      291 bytes  lib/plugins/create/templates/aws-java-gradle/src\</tspan>
-<tspan x="10" y="3946">/main/resources/log4j.properties</tspan>
-<tspan x="10" y="3962">163.  2017-04-07 11:53:47 +0000      125 bytes  lib/plugins/create/templates/aws-java-maven/giti\</tspan>
-<tspan x="10" y="3978">gnore</tspan>
-<tspan x="10" y="3994">164.  2017-04-07 11:53:47 +0000     2351 bytes  lib/plugins/create/templates/aws-java-maven/pom.\</tspan>
-<tspan x="10" y="4010">xml</tspan>
-<tspan x="10" y="4026">165.  2017-04-07 11:53:47 +0000     2601 bytes  lib/plugins/create/templates/aws-java-maven/serv\</tspan>
-<tspan x="10" y="4042">erless.yml</tspan>
-<tspan x="10" y="4058">166.  2017-04-07 11:53:47 +0000     3346 bytes  lib/plugins/create/templates/aws-java-maven/src/\</tspan>
-<tspan x="10" y="4074">main/java/com/serverless/ApiGatewayResponse.java</tspan>
-<tspan x="10" y="4090">167.  2017-04-07 11:53:47 +0000      825 bytes  lib/plugins/create/templates/aws-java-maven/src/\</tspan>
-<tspan x="10" y="4106">main/java/com/serverless/Handler.java</tspan>
-<tspan x="10" y="4122">168.  2017-04-07 11:53:47 +0000      385 bytes  lib/plugins/create/templates/aws-java-maven/src/\</tspan>
-<tspan x="10" y="4138">main/java/com/serverless/Response.java</tspan>
-<tspan x="10" y="4154">169.  2017-04-07 11:53:47 +0000      291 bytes  lib/plugins/create/templates/aws-java-maven/src/\</tspan>
-<tspan x="10" y="4170">main/resources/log4j.properties</tspan>
-<tspan x="10" y="4186">170.  2017-04-07 11:53:47 +0000       86 bytes  lib/plugins/create/templates/aws-nodejs/gitignor\</tspan>
-<tspan x="10" y="4202">e</tspan>
-<tspan x="10" y="4218">171.  2017-04-07 11:53:47 +0000      466 bytes  lib/plugins/create/templates/aws-nodejs/handler.\</tspan>
-<tspan x="10" y="4234">js</tspan>
-<tspan x="10" y="4250">172.  2017-04-07 11:53:47 +0000     2677 bytes  lib/plugins/create/templates/aws-nodejs/serverle\</tspan>
-<tspan x="10" y="4266">ss.yml</tspan>
-<tspan x="10" y="4282">173.  2017-04-07 11:53:47 +0000      192 bytes  lib/plugins/create/templates/aws-python/gitignor\</tspan>
-<tspan x="10" y="4298">e</tspan>
-<tspan x="10" y="4314">174.  2017-04-07 11:53:47 +0000      490 bytes  lib/plugins/create/templates/aws-python/handler.\</tspan>
-<tspan x="10" y="4330">py</tspan>
-<tspan x="10" y="4346">175.  2017-04-07 11:53:47 +0000     2676 bytes  lib/plugins/create/templates/aws-python/serverle\</tspan>
-<tspan x="10" y="4362">ss.yml</tspan>
-<tspan x="10" y="4378">176.  2017-04-07 11:53:47 +0000      512 bytes  lib/plugins/create/templates/aws-scala-sbt/build\</tspan>
-<tspan x="10" y="4394">.sbt</tspan>
-<tspan x="10" y="4410">177.  2017-04-07 11:53:47 +0000      169 bytes  lib/plugins/create/templates/aws-scala-sbt/gitig\</tspan>
-<tspan x="10" y="4426">nore</tspan>
-<tspan x="10" y="4442">178.  2017-04-07 11:53:47 +0000      102 bytes  lib/plugins/create/templates/aws-scala-sbt/proje\</tspan>
-<tspan x="10" y="4458">ct/assembly.sbt</tspan>
-<tspan x="10" y="4474">179.  2017-04-07 11:53:47 +0000       59 bytes  lib/plugins/create/templates/aws-scala-sbt/proje\</tspan>
-<tspan x="10" y="4490">ct/plugins.sbt</tspan>
-<tspan x="10" y="4506">180.  2017-04-07 11:53:47 +0000     2598 bytes  lib/plugins/create/templates/aws-scala-sbt/serve\</tspan>
-<tspan x="10" y="4522">rless.yml</tspan>
-<tspan x="10" y="4538">181.  2017-04-07 11:53:47 +0000      308 bytes  lib/plugins/create/templates/aws-scala-sbt/src/m\</tspan>
-<tspan x="10" y="4554">ain/scala/hello/Handler.scala</tspan>
-<tspan x="10" y="4570">182.  2017-04-07 11:53:47 +0000      194 bytes  lib/plugins/create/templates/aws-scala-sbt/src/m\</tspan>
-<tspan x="10" y="4586">ain/scala/hello/Request.scala</tspan>
-<tspan x="10" y="4602">183.  2017-04-07 11:53:47 +0000      131 bytes  lib/plugins/create/templates/aws-scala-sbt/src/m\</tspan>
-<tspan x="10" y="4618">ain/scala/hello/Response.scala</tspan>
-<tspan x="10" y="4634">184.  2017-04-07 11:53:47 +0000     2544 bytes  lib/plugins/create/templates/azure-nodejs/README\</tspan>
-<tspan x="10" y="4650">.md</tspan>
-<tspan x="10" y="4666">185.  2017-04-07 11:53:47 +0000       86 bytes  lib/plugins/create/templates/azure-nodejs/gitign\</tspan>
-<tspan x="10" y="4682">ore</tspan>
-<tspan x="10" y="4698">186.  2017-04-07 11:53:47 +0000      376 bytes  lib/plugins/create/templates/azure-nodejs/handle\</tspan>
-<tspan x="10" y="4714">r.js</tspan>
-<tspan x="10" y="4730">187.  2017-04-07 11:53:47 +0000      263 bytes  lib/plugins/create/templates/azure-nodejs/packag\</tspan>
-<tspan x="10" y="4746">e.json</tspan>
-<tspan x="10" y="4762">188.  2017-04-07 11:53:47 +0000     1266 bytes  lib/plugins/create/templates/azure-nodejs/server\</tspan>
-<tspan x="10" y="4778">less.yml</tspan>
-<tspan x="10" y="4794">189.  2017-04-07 11:53:47 +0000     2841 bytes  lib/plugins/create/templates/openwhisk-nodejs/RE\</tspan>
-<tspan x="10" y="4810">ADME.md</tspan>
-<tspan x="10" y="4826">190.  2017-04-07 11:53:47 +0000       86 bytes  lib/plugins/create/templates/openwhisk-nodejs/gi\</tspan>
-<tspan x="10" y="4842">tignore</tspan>
-<tspan x="10" y="4858">191.  2017-04-07 11:53:47 +0000      146 bytes  lib/plugins/create/templates/openwhisk-nodejs/ha\</tspan>
-<tspan x="10" y="4874">ndler.js</tspan>
-<tspan x="10" y="4890">192.  2017-04-07 11:53:47 +0000      279 bytes  lib/plugins/create/templates/openwhisk-nodejs/pa\</tspan>
-<tspan x="10" y="4906">ckage.json</tspan>
-<tspan x="10" y="4922">193.  2017-04-07 11:53:47 +0000     1744 bytes  lib/plugins/create/templates/openwhisk-nodejs/se\</tspan>
-<tspan x="10" y="4938">rverless.yml</tspan>
-<tspan x="10" y="4954">194.  2017-04-07 11:53:47 +0000     1222 bytes  lib/plugins/create/templates/plugin/index.js</tspan>
-<tspan x="10" y="4970">195.  2017-04-07 11:53:47 +0000     1802 bytes  lib/plugins/deploy/deploy.js</tspan>
-<tspan x="10" y="4986">196.  2017-04-07 11:53:47 +0000      426 bytes  lib/plugins/deploy/deploy.test.js</tspan>
-<tspan x="10" y="5002">197.  2017-04-07 11:53:47 +0000      625 bytes  lib/plugins/info/info.js</tspan>
-<tspan x="10" y="5018">198.  2017-04-07 11:53:47 +0000      411 bytes  lib/plugins/info/info.test.js</tspan>
-<tspan x="10" y="5034">199.  2017-04-07 11:53:47 +0000     4846 bytes  lib/plugins/install/install.js</tspan>
-<tspan x="10" y="5050">200.  2017-04-07 11:53:47 +0000     9011 bytes  lib/plugins/install/install.test.js</tspan>
-<tspan x="10" y="5066">201.  2017-04-07 11:53:47 +0000     1688 bytes  lib/plugins/invoke/invoke.js</tspan>
-<tspan x="10" y="5082">202.  2017-04-07 11:53:47 +0000      425 bytes  lib/plugins/invoke/invoke.test.js</tspan>
-<tspan x="10" y="5098">203.  2017-04-07 11:53:47 +0000     1065 bytes  lib/plugins/logs/logs.js</tspan>
-<tspan x="10" y="5114">204.  2017-04-07 11:53:47 +0000      411 bytes  lib/plugins/logs/logs.test.js</tspan>
-<tspan x="10" y="5130">205.  2017-04-07 11:53:47 +0000      893 bytes  lib/plugins/metrics/metrics.js</tspan>
-<tspan x="10" y="5146">206.  2017-04-07 11:53:47 +0000      728 bytes  lib/plugins/metrics/metrics.test.js</tspan>
-<tspan x="10" y="5162">207.  2017-04-07 11:53:47 +0000      744 bytes  lib/plugins/package/index.js</tspan>
-<tspan x="10" y="5178">208.  2017-04-07 11:53:47 +0000     1399 bytes  lib/plugins/package/index.test.js</tspan>
-<tspan x="10" y="5194">209.  2017-04-07 11:53:47 +0000      467 bytes  lib/plugins/package/lib/cleanup.js</tspan>
-<tspan x="10" y="5210">210.  2017-04-07 11:53:47 +0000     1114 bytes  lib/plugins/package/lib/cleanup.test.js</tspan>
-<tspan x="10" y="5226">211.  2017-04-07 11:53:47 +0000     3151 bytes  lib/plugins/package/lib/packageService.js</tspan>
-<tspan x="10" y="5242">212.  2017-04-07 11:53:47 +0000     8815 bytes  lib/plugins/package/lib/packageService.test.js</tspan>
-<tspan x="10" y="5258">213.  2017-04-07 11:53:47 +0000      298 bytes  lib/plugins/package/lib/validate.js</tspan>
-<tspan x="10" y="5274">214.  2017-04-07 11:53:47 +0000      717 bytes  lib/plugins/package/lib/validate.test.js</tspan>
-<tspan x="10" y="5290">215.  2017-04-07 11:53:47 +0000     1724 bytes  lib/plugins/package/lib/zipService.js</tspan>
-<tspan x="10" y="5306">216.  2017-04-07 11:53:47 +0000    10452 bytes  lib/plugins/package/lib/zipService.test.js</tspan>
-<tspan x="10" y="5322">217.  2017-04-07 11:53:47 +0000      658 bytes  lib/plugins/remove/remove.js</tspan>
-<tspan x="10" y="5338">218.  2017-04-07 11:53:47 +0000      557 bytes  lib/plugins/remove/remove.test.js</tspan>
-<tspan x="10" y="5354">219.  2017-04-07 11:53:47 +0000      687 bytes  lib/plugins/rollback/index.js</tspan>
-<tspan x="10" y="5370">220.  2017-04-07 11:53:47 +0000      942 bytes  lib/plugins/rollback/index.test.js</tspan>
-<tspan x="10" y="5386">221.  2017-04-07 11:53:47 +0000     2117 bytes  lib/plugins/slstats/slstats.js</tspan>
-<tspan x="10" y="5402">222.  2017-04-07 11:53:47 +0000     4252 bytes  lib/plugins/slstats/slstats.test.js</tspan>
-<tspan x="10" y="5418">223.  2017-04-07 11:53:47 +0000    29452 bytes  npm-shrinkwrap.json</tspan>
-<tspan x="10" y="5434">224.  2017-04-07 11:53:47 +0000    36044 bytes  package.json</tspan>
-<tspan x="10" y="5450">225.  2017-04-07 11:53:47 +0000      241 bytes  scripts/postinstall.js</tspan>
-<tspan x="10" y="5466">226.  2017-04-07 11:53:47 +0000      243 bytes  scripts/preuninstall.js</tspan>
+<tspan x="10" y="1338"> 53.  2017-04-19 13:11:11 +0000     5213 bytes  lib/plugins/aws/deploy/compile/events/cloudWatch\</tspan>
+<tspan x="10" y="1354">Log/index.js</tspan>
+<tspan x="10" y="1370"> 54.  2017-04-19 13:11:11 +0000    12637 bytes  lib/plugins/aws/deploy/compile/events/cloudWatch\</tspan>
+<tspan x="10" y="1386">Log/index.test.js</tspan>
+<tspan x="10" y="1402"> 55.  2017-04-19 13:11:11 +0000     3980 bytes  lib/plugins/aws/deploy/compile/events/iot/index.\</tspan>
+<tspan x="10" y="1418">js</tspan>
+<tspan x="10" y="1434"> 56.  2017-04-19 13:11:11 +0000     8609 bytes  lib/plugins/aws/deploy/compile/events/iot/index.\</tspan>
+<tspan x="10" y="1450">test.js</tspan>
+<tspan x="10" y="1466"> 57.  2017-04-19 13:11:11 +0000     6757 bytes  lib/plugins/aws/deploy/compile/events/s3/index.j\</tspan>
+<tspan x="10" y="1482">s</tspan>
+<tspan x="10" y="1498"> 58.  2017-04-19 13:11:11 +0000     5908 bytes  lib/plugins/aws/deploy/compile/events/s3/index.t\</tspan>
+<tspan x="10" y="1514">est.js</tspan>
+<tspan x="10" y="1530"> 59.  2017-04-19 13:11:11 +0000     5311 bytes  lib/plugins/aws/deploy/compile/events/schedule/i\</tspan>
+<tspan x="10" y="1546">ndex.js</tspan>
+<tspan x="10" y="1562"> 60.  2017-04-19 13:11:11 +0000     9561 bytes  lib/plugins/aws/deploy/compile/events/schedule/i\</tspan>
+<tspan x="10" y="1578">ndex.test.js</tspan>
+<tspan x="10" y="1594"> 61.  2017-04-19 13:11:11 +0000     4932 bytes  lib/plugins/aws/deploy/compile/events/sns/index.\</tspan>
+<tspan x="10" y="1610">js</tspan>
+<tspan x="10" y="1626"> 62.  2017-04-19 13:11:11 +0000     5292 bytes  lib/plugins/aws/deploy/compile/events/sns/index.\</tspan>
+<tspan x="10" y="1642">test.js</tspan>
+<tspan x="10" y="1658"> 63.  2017-04-19 13:11:11 +0000     8422 bytes  lib/plugins/aws/deploy/compile/events/stream/ind\</tspan>
+<tspan x="10" y="1674">ex.js</tspan>
+<tspan x="10" y="1690"> 64.  2017-04-19 13:11:11 +0000    26202 bytes  lib/plugins/aws/deploy/compile/events/stream/ind\</tspan>
+<tspan x="10" y="1706">ex.test.js</tspan>
+<tspan x="10" y="1722"> 65.  2017-04-19 13:11:11 +0000     9033 bytes  lib/plugins/aws/deploy/compile/functions/index.j\</tspan>
+<tspan x="10" y="1738">s</tspan>
+<tspan x="10" y="1754"> 66.  2017-04-19 13:11:11 +0000    37980 bytes  lib/plugins/aws/deploy/compile/functions/index.t\</tspan>
+<tspan x="10" y="1770">est.js</tspan>
+<tspan x="10" y="1786"> 67.  2017-04-19 13:11:11 +0000     2060 bytes  lib/plugins/aws/deploy/index.js</tspan>
+<tspan x="10" y="1802"> 68.  2017-04-19 13:11:11 +0000     4176 bytes  lib/plugins/aws/deploy/index.test.js</tspan>
+<tspan x="10" y="1818"> 69.  2017-04-19 13:11:11 +0000     1756 bytes  lib/plugins/aws/deploy/lib/cleanupS3Bucket.js</tspan>
+<tspan x="10" y="1834"> 70.  2017-04-19 13:11:11 +0000     9852 bytes  lib/plugins/aws/deploy/lib/cleanupS3Bucket.test.\</tspan>
+<tspan x="10" y="1850">js</tspan>
+<tspan x="10" y="1866"> 71.  2017-04-19 13:11:11 +0000     1741 bytes  lib/plugins/aws/deploy/lib/configureStack.js</tspan>
+<tspan x="10" y="1882"> 72.  2017-04-19 13:11:11 +0000     4448 bytes  lib/plugins/aws/deploy/lib/configureStack.test.j\</tspan>
+<tspan x="10" y="1898">s</tspan>
+<tspan x="10" y="1914"> 73.  2017-04-19 13:11:11 +0000      363 bytes  lib/plugins/aws/deploy/lib/core-cloudformation-t\</tspan>
+<tspan x="10" y="1930">emplate.json</tspan>
+<tspan x="10" y="1946"> 74.  2017-04-19 13:11:11 +0000     3239 bytes  lib/plugins/aws/deploy/lib/createStack.js</tspan>
+<tspan x="10" y="1962"> 75.  2017-04-19 13:11:11 +0000     8819 bytes  lib/plugins/aws/deploy/lib/createStack.test.js</tspan>
+<tspan x="10" y="1978"> 76.  2017-04-19 13:11:11 +0000      453 bytes  lib/plugins/aws/deploy/lib/generateArtifactDirec\</tspan>
+<tspan x="10" y="1994">toryName.js</tspan>
+<tspan x="10" y="2010"> 77.  2017-04-19 13:11:11 +0000      751 bytes  lib/plugins/aws/deploy/lib/generateArtifactDirec\</tspan>
+<tspan x="10" y="2026">toryName.test.js</tspan>
+<tspan x="10" y="2042"> 78.  2017-04-19 13:11:11 +0000      915 bytes  lib/plugins/aws/deploy/lib/iam-role-lambda-execu\</tspan>
+<tspan x="10" y="2058">tion-template.json</tspan>
+<tspan x="10" y="2074"> 79.  2017-04-19 13:11:11 +0000      617 bytes  lib/plugins/aws/deploy/lib/mergeCustomProviderRe\</tspan>
+<tspan x="10" y="2090">sources.js</tspan>
+<tspan x="10" y="2106"> 80.  2017-04-19 13:11:11 +0000     5977 bytes  lib/plugins/aws/deploy/lib/mergeCustomProviderRe\</tspan>
+<tspan x="10" y="2122">sources.test.js</tspan>
+<tspan x="10" y="2138"> 81.  2017-04-19 13:11:11 +0000     5940 bytes  lib/plugins/aws/deploy/lib/mergeIamTemplates.js</tspan>
+<tspan x="10" y="2154"> 82.  2017-04-19 13:11:11 +0000    16071 bytes  lib/plugins/aws/deploy/lib/mergeIamTemplates.tes\</tspan>
+<tspan x="10" y="2170">t.js</tspan>
+<tspan x="10" y="2186"> 83.  2017-04-19 13:11:11 +0000     2626 bytes  lib/plugins/aws/deploy/lib/uploadArtifacts.js</tspan>
+<tspan x="10" y="2202"> 84.  2017-04-19 13:11:11 +0000     7857 bytes  lib/plugins/aws/deploy/lib/uploadArtifacts.test.\</tspan>
+<tspan x="10" y="2218">js</tspan>
+<tspan x="10" y="2234"> 85.  2017-04-19 13:11:11 +0000     2924 bytes  lib/plugins/aws/deployFunction/index.js</tspan>
+<tspan x="10" y="2250"> 86.  2017-04-19 13:11:11 +0000     7175 bytes  lib/plugins/aws/deployFunction/index.test.js</tspan>
+<tspan x="10" y="2266"> 87.  2017-04-19 13:11:11 +0000     2090 bytes  lib/plugins/aws/deployList/index.js</tspan>
+<tspan x="10" y="2282"> 88.  2017-04-19 13:11:11 +0000     3678 bytes  lib/plugins/aws/deployList/index.test.js</tspan>
+<tspan x="10" y="2298"> 89.  2017-04-19 13:11:11 +0000     2436 bytes  lib/plugins/aws/info/display.js</tspan>
+<tspan x="10" y="2314"> 90.  2017-04-19 13:11:11 +0000     7510 bytes  lib/plugins/aws/info/display.test.js</tspan>
+<tspan x="10" y="2330"> 91.  2017-04-19 13:11:11 +0000     1174 bytes  lib/plugins/aws/info/getApiKeyValues.js</tspan>
+<tspan x="10" y="2346"> 92.  2017-04-19 13:11:11 +0000     2963 bytes  lib/plugins/aws/info/getApiKeyValues.test.js</tspan>
+<tspan x="10" y="2362"> 93.  2017-04-19 13:11:11 +0000     1588 bytes  lib/plugins/aws/info/getStackInfo.js</tspan>
+<tspan x="10" y="2378"> 94.  2017-04-19 13:11:11 +0000     4421 bytes  lib/plugins/aws/info/getStackInfo.test.js</tspan>
+<tspan x="10" y="2394"> 95.  2017-04-19 13:11:11 +0000     1118 bytes  lib/plugins/aws/info/index.js</tspan>
+<tspan x="10" y="2410"> 96.  2017-04-19 13:11:11 +0000     2770 bytes  lib/plugins/aws/info/index.test.js</tspan>
+<tspan x="10" y="2426"> 97.  2017-04-19 13:11:11 +0000     4018 bytes  lib/plugins/aws/invoke/index.js</tspan>
+<tspan x="10" y="2442"> 98.  2017-04-19 13:11:11 +0000     8505 bytes  lib/plugins/aws/invoke/index.test.js</tspan>
+<tspan x="10" y="2458"> 99.  2017-04-19 13:11:11 +0000      197 bytes  lib/plugins/aws/invokeLocal/fixture/handlerWithE\</tspan>
+<tspan x="10" y="2474">rror.js</tspan>
+<tspan x="10" y="2490">100.  2017-04-19 13:11:11 +0000      468 bytes  lib/plugins/aws/invokeLocal/fixture/handlerWithS\</tspan>
+<tspan x="10" y="2506">uccess.js</tspan>
+<tspan x="10" y="2522">101.  2017-04-19 13:11:11 +0000     7288 bytes  lib/plugins/aws/invokeLocal/index.js</tspan>
+<tspan x="10" y="2538">102.  2017-04-19 13:11:11 +0000    14461 bytes  lib/plugins/aws/invokeLocal/index.test.js</tspan>
+<tspan x="10" y="2554">103.  2017-04-19 13:11:11 +0000     1599 bytes  lib/plugins/aws/invokeLocal/invoke.py</tspan>
+<tspan x="10" y="2570">104.  2017-04-19 13:11:11 +0000     6160 bytes  lib/plugins/aws/lib/monitorStack.js</tspan>
+<tspan x="10" y="2586">105.  2017-04-19 13:11:11 +0000    22818 bytes  lib/plugins/aws/lib/monitorStack.test.js</tspan>
+<tspan x="10" y="2602">106.  2017-04-19 13:11:11 +0000     8860 bytes  lib/plugins/aws/lib/naming.js</tspan>
+<tspan x="10" y="2618">107.  2017-04-19 13:11:11 +0000    16348 bytes  lib/plugins/aws/lib/naming.test.js</tspan>
+<tspan x="10" y="2634">108.  2017-04-19 13:11:11 +0000      437 bytes  lib/plugins/aws/lib/setBucketName.js</tspan>
+<tspan x="10" y="2650">109.  2017-04-19 13:11:11 +0000     1917 bytes  lib/plugins/aws/lib/setBucketName.test.js</tspan>
+<tspan x="10" y="2666">110.  2017-04-19 13:11:11 +0000     3906 bytes  lib/plugins/aws/lib/updateStack.js</tspan>
+<tspan x="10" y="2682">111.  2017-04-19 13:11:11 +0000     8417 bytes  lib/plugins/aws/lib/updateStack.test.js</tspan>
+<tspan x="10" y="2698">112.  2017-04-19 13:11:11 +0000     2567 bytes  lib/plugins/aws/lib/validate.js</tspan>
+<tspan x="10" y="2714">113.  2017-04-19 13:11:11 +0000     5505 bytes  lib/plugins/aws/lib/validate.test.js</tspan>
+<tspan x="10" y="2730">114.  2017-04-19 13:11:11 +0000     4463 bytes  lib/plugins/aws/logs/index.js</tspan>
+<tspan x="10" y="2746">115.  2017-04-19 13:11:11 +0000     8999 bytes  lib/plugins/aws/logs/index.test.js</tspan>
+<tspan x="10" y="2762">116.  2017-04-19 13:11:11 +0000     4408 bytes  lib/plugins/aws/metrics/awsMetrics.js</tspan>
+<tspan x="10" y="2778">117.  2017-04-19 13:11:11 +0000    18736 bytes  lib/plugins/aws/metrics/awsMetrics.test.js</tspan>
+<tspan x="10" y="2794">118.  2017-04-19 13:11:11 +0000     7685 bytes  lib/plugins/aws/provider/awsProvider.js</tspan>
+<tspan x="10" y="2810">119.  2017-04-19 13:11:11 +0000    19811 bytes  lib/plugins/aws/provider/awsProvider.test.js</tspan>
+<tspan x="10" y="2826">120.  2017-04-19 13:11:11 +0000      773 bytes  lib/plugins/aws/remove/index.js</tspan>
+<tspan x="10" y="2842">121.  2017-04-19 13:11:11 +0000     1930 bytes  lib/plugins/aws/remove/index.test.js</tspan>
+<tspan x="10" y="2858">122.  2017-04-19 13:11:11 +0000     1475 bytes  lib/plugins/aws/remove/lib/bucket.js</tspan>
+<tspan x="10" y="2874">123.  2017-04-19 13:11:11 +0000     5133 bytes  lib/plugins/aws/remove/lib/bucket.test.js</tspan>
+<tspan x="10" y="2890">124.  2017-04-19 13:11:11 +0000      711 bytes  lib/plugins/aws/remove/lib/stack.js</tspan>
+<tspan x="10" y="2906">125.  2017-04-19 13:11:11 +0000     2002 bytes  lib/plugins/aws/remove/lib/stack.test.js</tspan>
+<tspan x="10" y="2922">126.  2017-04-19 13:11:11 +0000     2485 bytes  lib/plugins/aws/rollback/index.js</tspan>
+<tspan x="10" y="2938">127.  2017-04-19 13:11:11 +0000     5737 bytes  lib/plugins/aws/rollback/index.test.js</tspan>
+<tspan x="10" y="2954">128.  2017-04-19 13:11:11 +0000      602 bytes  lib/plugins/aws/utils/findAndGroupDeployments.js</tspan>
+<tspan x="10" y="2970">129.  2017-04-19 13:11:11 +0000     2286 bytes  lib/plugins/aws/utils/findAndGroupDeployments.te\</tspan>
+<tspan x="10" y="2986">st.js</tspan>
+<tspan x="10" y="3002">130.  2017-04-19 13:11:11 +0000      216 bytes  lib/plugins/aws/utils/getS3ObjectsFromStacks.js</tspan>
+<tspan x="10" y="3018">131.  2017-04-19 13:11:11 +0000     1582 bytes  lib/plugins/aws/utils/getS3ObjectsFromStacks.tes\</tspan>
+<tspan x="10" y="3034">t.js</tspan>
+<tspan x="10" y="3050">132.  2017-04-19 13:11:11 +0000     1521 bytes  lib/plugins/config/config.js</tspan>
+<tspan x="10" y="3066">133.  2017-04-19 13:11:11 +0000     2281 bytes  lib/plugins/config/config.test.js</tspan>
+<tspan x="10" y="3082">134.  2017-04-19 13:11:11 +0000     5428 bytes  lib/plugins/create/create.js</tspan>
+<tspan x="10" y="3098">135.  2017-04-19 13:11:11 +0000    18419 bytes  lib/plugins/create/create.test.js</tspan>
+<tspan x="10" y="3114">136.  2017-04-19 13:11:11 +0000      112 bytes  lib/plugins/create/templates/aws-csharp/Assembly\</tspan>
+<tspan x="10" y="3130">Info.cs</tspan>
+<tspan x="10" y="3146">137.  2017-04-19 13:11:11 +0000      768 bytes  lib/plugins/create/templates/aws-csharp/Handler.\</tspan>
+<tspan x="10" y="3162">cs</tspan>
+<tspan x="10" y="3178">138.  2017-04-19 13:11:11 +0000      737 bytes  lib/plugins/create/templates/aws-csharp/build.ps\</tspan>
+<tspan x="10" y="3194">1</tspan>
+<tspan x="10" y="3210">139.  2017-04-19 13:11:11 +0000      235 bytes  lib/plugins/create/templates/aws-csharp/build.sh</tspan>
+<tspan x="10" y="3226">140.  2017-04-19 13:11:11 +0000     3838 bytes  lib/plugins/create/templates/aws-csharp/gitignor\</tspan>
+<tspan x="10" y="3242">e</tspan>
+<tspan x="10" y="3258">141.  2017-04-19 13:11:11 +0000      560 bytes  lib/plugins/create/templates/aws-csharp/project.\</tspan>
+<tspan x="10" y="3274">json</tspan>
+<tspan x="10" y="3290">142.  2017-04-19 13:11:11 +0000     2743 bytes  lib/plugins/create/templates/aws-csharp/serverle\</tspan>
+<tspan x="10" y="3306">ss.yml</tspan>
+<tspan x="10" y="3322">143.  2017-04-19 13:11:11 +0000      965 bytes  lib/plugins/create/templates/aws-groovy-gradle/b\</tspan>
+<tspan x="10" y="3338">uild.gradle</tspan>
+<tspan x="10" y="3354">144.  2017-04-19 13:11:11 +0000      136 bytes  lib/plugins/create/templates/aws-groovy-gradle/g\</tspan>
+<tspan x="10" y="3370">itignore</tspan>
+<tspan x="10" y="3386">145.  2017-04-19 13:11:11 +0000    54227 bytes  lib/plugins/create/templates/aws-groovy-gradle/g\</tspan>
+<tspan x="10" y="3402">radle/wrapper/gradle-wrapper.jar</tspan>
+<tspan x="10" y="3418">146.  2017-04-19 13:11:11 +0000      232 bytes  lib/plugins/create/templates/aws-groovy-gradle/g\</tspan>
+<tspan x="10" y="3434">radle/wrapper/gradle-wrapper.properties</tspan>
+<tspan x="10" y="3450">147.  2017-04-19 13:11:11 +0000     5299 bytes  lib/plugins/create/templates/aws-groovy-gradle/g\</tspan>
+<tspan x="10" y="3466">radlew</tspan>
+<tspan x="10" y="3482">148.  2017-04-19 13:11:11 +0000     2176 bytes  lib/plugins/create/templates/aws-groovy-gradle/g\</tspan>
+<tspan x="10" y="3498">radlew.bat</tspan>
+<tspan x="10" y="3514">149.  2017-04-19 13:11:11 +0000     2657 bytes  lib/plugins/create/templates/aws-groovy-gradle/s\</tspan>
+<tspan x="10" y="3530">erverless.yml</tspan>
+<tspan x="10" y="3546">150.  2017-04-19 13:11:11 +0000      217 bytes  lib/plugins/create/templates/aws-groovy-gradle/s\</tspan>
+<tspan x="10" y="3562">rc/main/groovy/com/serverless/ApiGatewayResponse.groovy</tspan>
+<tspan x="10" y="3578">151.  2017-04-19 13:11:11 +0000      853 bytes  lib/plugins/create/templates/aws-groovy-gradle/s\</tspan>
+<tspan x="10" y="3594">rc/main/groovy/com/serverless/Handler.groovy</tspan>
+<tspan x="10" y="3610">152.  2017-04-19 13:11:11 +0000      305 bytes  lib/plugins/create/templates/aws-groovy-gradle/s\</tspan>
+<tspan x="10" y="3626">rc/main/groovy/com/serverless/Response.groovy</tspan>
+<tspan x="10" y="3642">153.  2017-04-19 13:11:11 +0000      291 bytes  lib/plugins/create/templates/aws-groovy-gradle/s\</tspan>
+<tspan x="10" y="3658">rc/main/resources/log4j.properties</tspan>
+<tspan x="10" y="3674">154.  2017-04-19 13:11:11 +0000     1095 bytes  lib/plugins/create/templates/aws-java-gradle/bui\</tspan>
+<tspan x="10" y="3690">ld.gradle</tspan>
+<tspan x="10" y="3706">155.  2017-04-19 13:11:11 +0000      136 bytes  lib/plugins/create/templates/aws-java-gradle/git\</tspan>
+<tspan x="10" y="3722">ignore</tspan>
+<tspan x="10" y="3738">156.  2017-04-19 13:11:11 +0000    54227 bytes  lib/plugins/create/templates/aws-java-gradle/gra\</tspan>
+<tspan x="10" y="3754">dle/wrapper/gradle-wrapper.jar</tspan>
+<tspan x="10" y="3770">157.  2017-04-19 13:11:11 +0000      232 bytes  lib/plugins/create/templates/aws-java-gradle/gra\</tspan>
+<tspan x="10" y="3786">dle/wrapper/gradle-wrapper.properties</tspan>
+<tspan x="10" y="3802">158.  2017-04-19 13:11:11 +0000     5299 bytes  lib/plugins/create/templates/aws-java-gradle/gra\</tspan>
+<tspan x="10" y="3818">dlew</tspan>
+<tspan x="10" y="3834">159.  2017-04-19 13:11:11 +0000     2260 bytes  lib/plugins/create/templates/aws-java-gradle/gra\</tspan>
+<tspan x="10" y="3850">dlew.bat</tspan>
+<tspan x="10" y="3866">160.  2017-04-19 13:11:11 +0000     2655 bytes  lib/plugins/create/templates/aws-java-gradle/ser\</tspan>
+<tspan x="10" y="3882">verless.yml</tspan>
+<tspan x="10" y="3898">161.  2017-04-19 13:11:11 +0000     3346 bytes  lib/plugins/create/templates/aws-java-gradle/src\</tspan>
+<tspan x="10" y="3914">/main/java/com/serverless/ApiGatewayResponse.java</tspan>
+<tspan x="10" y="3930">162.  2017-04-19 13:11:11 +0000      825 bytes  lib/plugins/create/templates/aws-java-gradle/src\</tspan>
+<tspan x="10" y="3946">/main/java/com/serverless/Handler.java</tspan>
+<tspan x="10" y="3962">163.  2017-04-19 13:11:11 +0000      385 bytes  lib/plugins/create/templates/aws-java-gradle/src\</tspan>
+<tspan x="10" y="3978">/main/java/com/serverless/Response.java</tspan>
+<tspan x="10" y="3994">164.  2017-04-19 13:11:11 +0000      291 bytes  lib/plugins/create/templates/aws-java-gradle/src\</tspan>
+<tspan x="10" y="4010">/main/resources/log4j.properties</tspan>
+<tspan x="10" y="4026">165.  2017-04-19 13:11:11 +0000      125 bytes  lib/plugins/create/templates/aws-java-maven/giti\</tspan>
+<tspan x="10" y="4042">gnore</tspan>
+<tspan x="10" y="4058">166.  2017-04-19 13:11:11 +0000     2351 bytes  lib/plugins/create/templates/aws-java-maven/pom.\</tspan>
+<tspan x="10" y="4074">xml</tspan>
+<tspan x="10" y="4090">167.  2017-04-19 13:11:11 +0000     2645 bytes  lib/plugins/create/templates/aws-java-maven/serv\</tspan>
+<tspan x="10" y="4106">erless.yml</tspan>
+<tspan x="10" y="4122">168.  2017-04-19 13:11:11 +0000     3346 bytes  lib/plugins/create/templates/aws-java-maven/src/\</tspan>
+<tspan x="10" y="4138">main/java/com/serverless/ApiGatewayResponse.java</tspan>
+<tspan x="10" y="4154">169.  2017-04-19 13:11:11 +0000      825 bytes  lib/plugins/create/templates/aws-java-maven/src/\</tspan>
+<tspan x="10" y="4170">main/java/com/serverless/Handler.java</tspan>
+<tspan x="10" y="4186">170.  2017-04-19 13:11:11 +0000      385 bytes  lib/plugins/create/templates/aws-java-maven/src/\</tspan>
+<tspan x="10" y="4202">main/java/com/serverless/Response.java</tspan>
+<tspan x="10" y="4218">171.  2017-04-19 13:11:11 +0000      291 bytes  lib/plugins/create/templates/aws-java-maven/src/\</tspan>
+<tspan x="10" y="4234">main/resources/log4j.properties</tspan>
+<tspan x="10" y="4250">172.  2017-04-19 13:11:11 +0000       86 bytes  lib/plugins/create/templates/aws-nodejs/gitignor\</tspan>
+<tspan x="10" y="4266">e</tspan>
+<tspan x="10" y="4282">173.  2017-04-19 13:11:11 +0000      466 bytes  lib/plugins/create/templates/aws-nodejs/handler.\</tspan>
+<tspan x="10" y="4298">js</tspan>
+<tspan x="10" y="4314">174.  2017-04-19 13:11:11 +0000     2721 bytes  lib/plugins/create/templates/aws-nodejs/serverle\</tspan>
+<tspan x="10" y="4330">ss.yml</tspan>
+<tspan x="10" y="4346">175.  2017-04-19 13:11:11 +0000      192 bytes  lib/plugins/create/templates/aws-python/gitignor\</tspan>
+<tspan x="10" y="4362">e</tspan>
+<tspan x="10" y="4378">176.  2017-04-19 13:11:11 +0000      490 bytes  lib/plugins/create/templates/aws-python/handler.\</tspan>
+<tspan x="10" y="4394">py</tspan>
+<tspan x="10" y="4410">177.  2017-04-19 13:11:11 +0000     2720 bytes  lib/plugins/create/templates/aws-python/serverle\</tspan>
+<tspan x="10" y="4426">ss.yml</tspan>
+<tspan x="10" y="4442">178.  2017-04-19 13:11:11 +0000      512 bytes  lib/plugins/create/templates/aws-scala-sbt/build\</tspan>
+<tspan x="10" y="4458">.sbt</tspan>
+<tspan x="10" y="4474">179.  2017-04-19 13:11:11 +0000      169 bytes  lib/plugins/create/templates/aws-scala-sbt/gitig\</tspan>
+<tspan x="10" y="4490">nore</tspan>
+<tspan x="10" y="4506">180.  2017-04-19 13:11:11 +0000      102 bytes  lib/plugins/create/templates/aws-scala-sbt/proje\</tspan>
+<tspan x="10" y="4522">ct/assembly.sbt</tspan>
+<tspan x="10" y="4538">181.  2017-04-19 13:11:11 +0000       59 bytes  lib/plugins/create/templates/aws-scala-sbt/proje\</tspan>
+<tspan x="10" y="4554">ct/plugins.sbt</tspan>
+<tspan x="10" y="4570">182.  2017-04-19 13:11:11 +0000     2642 bytes  lib/plugins/create/templates/aws-scala-sbt/serve\</tspan>
+<tspan x="10" y="4586">rless.yml</tspan>
+<tspan x="10" y="4602">183.  2017-04-19 13:11:11 +0000      308 bytes  lib/plugins/create/templates/aws-scala-sbt/src/m\</tspan>
+<tspan x="10" y="4618">ain/scala/hello/Handler.scala</tspan>
+<tspan x="10" y="4634">184.  2017-04-19 13:11:11 +0000      194 bytes  lib/plugins/create/templates/aws-scala-sbt/src/m\</tspan>
+<tspan x="10" y="4650">ain/scala/hello/Request.scala</tspan>
+<tspan x="10" y="4666">185.  2017-04-19 13:11:11 +0000      131 bytes  lib/plugins/create/templates/aws-scala-sbt/src/m\</tspan>
+<tspan x="10" y="4682">ain/scala/hello/Response.scala</tspan>
+<tspan x="10" y="4698">186.  2017-04-19 13:11:11 +0000     2544 bytes  lib/plugins/create/templates/azure-nodejs/README\</tspan>
+<tspan x="10" y="4714">.md</tspan>
+<tspan x="10" y="4730">187.  2017-04-19 13:11:11 +0000       86 bytes  lib/plugins/create/templates/azure-nodejs/gitign\</tspan>
+<tspan x="10" y="4746">ore</tspan>
+<tspan x="10" y="4762">188.  2017-04-19 13:11:11 +0000      376 bytes  lib/plugins/create/templates/azure-nodejs/handle\</tspan>
+<tspan x="10" y="4778">r.js</tspan>
+<tspan x="10" y="4794">189.  2017-04-19 13:11:11 +0000      263 bytes  lib/plugins/create/templates/azure-nodejs/packag\</tspan>
+<tspan x="10" y="4810">e.json</tspan>
+<tspan x="10" y="4826">190.  2017-04-19 13:11:11 +0000     1266 bytes  lib/plugins/create/templates/azure-nodejs/server\</tspan>
+<tspan x="10" y="4842">less.yml</tspan>
+<tspan x="10" y="4858">191.  2017-04-19 13:11:11 +0000     2841 bytes  lib/plugins/create/templates/openwhisk-nodejs/RE\</tspan>
+<tspan x="10" y="4874">ADME.md</tspan>
+<tspan x="10" y="4890">192.  2017-04-19 13:11:11 +0000       86 bytes  lib/plugins/create/templates/openwhisk-nodejs/gi\</tspan>
+<tspan x="10" y="4906">tignore</tspan>
+<tspan x="10" y="4922">193.  2017-04-19 13:11:11 +0000      146 bytes  lib/plugins/create/templates/openwhisk-nodejs/ha\</tspan>
+<tspan x="10" y="4938">ndler.js</tspan>
+<tspan x="10" y="4954">194.  2017-04-19 13:11:11 +0000      279 bytes  lib/plugins/create/templates/openwhisk-nodejs/pa\</tspan>
+<tspan x="10" y="4970">ckage.json</tspan>
+<tspan x="10" y="4986">195.  2017-04-19 13:11:11 +0000     1744 bytes  lib/plugins/create/templates/openwhisk-nodejs/se\</tspan>
+<tspan x="10" y="5002">rverless.yml</tspan>
+<tspan x="10" y="5018">196.  2017-04-19 13:11:11 +0000     1222 bytes  lib/plugins/create/templates/plugin/index.js</tspan>
+<tspan x="10" y="5034">197.  2017-04-19 13:11:11 +0000     1802 bytes  lib/plugins/deploy/deploy.js</tspan>
+<tspan x="10" y="5050">198.  2017-04-19 13:11:11 +0000      426 bytes  lib/plugins/deploy/deploy.test.js</tspan>
+<tspan x="10" y="5066">199.  2017-04-19 13:11:11 +0000      625 bytes  lib/plugins/info/info.js</tspan>
+<tspan x="10" y="5082">200.  2017-04-19 13:11:11 +0000      411 bytes  lib/plugins/info/info.test.js</tspan>
+<tspan x="10" y="5098">201.  2017-04-19 13:11:11 +0000     4846 bytes  lib/plugins/install/install.js</tspan>
+<tspan x="10" y="5114">202.  2017-04-19 13:11:11 +0000     9011 bytes  lib/plugins/install/install.test.js</tspan>
+<tspan x="10" y="5130">203.  2017-04-19 13:11:11 +0000     1688 bytes  lib/plugins/invoke/invoke.js</tspan>
+<tspan x="10" y="5146">204.  2017-04-19 13:11:11 +0000      425 bytes  lib/plugins/invoke/invoke.test.js</tspan>
+<tspan x="10" y="5162">205.  2017-04-19 13:11:11 +0000     1065 bytes  lib/plugins/logs/logs.js</tspan>
+<tspan x="10" y="5178">206.  2017-04-19 13:11:11 +0000      411 bytes  lib/plugins/logs/logs.test.js</tspan>
+<tspan x="10" y="5194">207.  2017-04-19 13:11:11 +0000      893 bytes  lib/plugins/metrics/metrics.js</tspan>
+<tspan x="10" y="5210">208.  2017-04-19 13:11:11 +0000      728 bytes  lib/plugins/metrics/metrics.test.js</tspan>
+<tspan x="10" y="5226">209.  2017-04-19 13:11:11 +0000      744 bytes  lib/plugins/package/index.js</tspan>
+<tspan x="10" y="5242">210.  2017-04-19 13:11:11 +0000     1399 bytes  lib/plugins/package/index.test.js</tspan>
+<tspan x="10" y="5258">211.  2017-04-19 13:11:11 +0000      467 bytes  lib/plugins/package/lib/cleanup.js</tspan>
+<tspan x="10" y="5274">212.  2017-04-19 13:11:11 +0000     1114 bytes  lib/plugins/package/lib/cleanup.test.js</tspan>
+<tspan x="10" y="5290">213.  2017-04-19 13:11:11 +0000     3151 bytes  lib/plugins/package/lib/packageService.js</tspan>
+<tspan x="10" y="5306">214.  2017-04-19 13:11:11 +0000     8815 bytes  lib/plugins/package/lib/packageService.test.js</tspan>
+<tspan x="10" y="5322">215.  2017-04-19 13:11:11 +0000      298 bytes  lib/plugins/package/lib/validate.js</tspan>
+<tspan x="10" y="5338">216.  2017-04-19 13:11:11 +0000      717 bytes  lib/plugins/package/lib/validate.test.js</tspan>
+<tspan x="10" y="5354">217.  2017-04-19 13:11:11 +0000     1724 bytes  lib/plugins/package/lib/zipService.js</tspan>
+<tspan x="10" y="5370">218.  2017-04-19 13:11:11 +0000    10452 bytes  lib/plugins/package/lib/zipService.test.js</tspan>
+<tspan x="10" y="5386">219.  2017-04-19 13:11:11 +0000      658 bytes  lib/plugins/remove/remove.js</tspan>
+<tspan x="10" y="5402">220.  2017-04-19 13:11:11 +0000      557 bytes  lib/plugins/remove/remove.test.js</tspan>
+<tspan x="10" y="5418">221.  2017-04-19 13:11:11 +0000      687 bytes  lib/plugins/rollback/index.js</tspan>
+<tspan x="10" y="5434">222.  2017-04-19 13:11:11 +0000      942 bytes  lib/plugins/rollback/index.test.js</tspan>
+<tspan x="10" y="5450">223.  2017-04-19 13:11:11 +0000     2117 bytes  lib/plugins/slstats/slstats.js</tspan>
+<tspan x="10" y="5466">224.  2017-04-19 13:11:11 +0000     4252 bytes  lib/plugins/slstats/slstats.test.js</tspan>
+<tspan x="10" y="5482">225.  2017-04-19 13:11:11 +0000    29452 bytes  npm-shrinkwrap.json</tspan>
+<tspan x="10" y="5498">226.  2017-04-19 13:11:11 +0000    36044 bytes  package.json</tspan>
+<tspan x="10" y="5514">227.  2017-04-19 13:11:11 +0000      241 bytes  scripts/postinstall.js</tspan>
+<tspan x="10" y="5530">228.  2017-04-19 13:11:11 +0000      243 bytes  scripts/preuninstall.js</tspan>
 </text>
 </svg>

@@ -1,4 +1,4 @@
-<div class="apidocDiv">
+<html><head></head><body><div class="apidocDiv">
 <style>
 /*csslint
 */
@@ -47,17 +47,10 @@
 }
 </style>
 <h1>api documentation for
-    <a
-
-        href="https://github.com/serverless/serverless#readme"
-
-    >serverless (v1.11.0)</a>
+    <a href="https://github.com/serverless/serverless#readme">serverless (v1.11.0)</a>
 </h1>
-<h4>Serverless Framework - Build web, mobile and IoT applications with serverless architectures using AWS Lambda, Azure Functions, Google CloudFunctions & more</h4>
-<div class="apidocSectionDiv"><a
-    href="#apidoc.tableOfContents"
-    id="apidoc.tableOfContents"
-><h1>table of contents</h1></a><ol>
+<h4>Serverless Framework - Build web, mobile and IoT applications with serverless architectures using AWS Lambda, Azure Functions, Google CloudFunctions &amp; more</h4>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.serverless">module serverless</a><ol>
 
@@ -160,7 +153,7 @@
     this.classes.Error = ServerlessError;
     this.classes.PluginManager = PluginManager;
 
-    this.serverlessDirPath = path.join(os.homedir(), &#x27;.serverless&#x27;);
+    this.serverlessDirPath = path.join(os.homedir(), '.serverless');
   }
 
   init() {
@@ -175,7 +168,7 @@
     this.pluginManager.setCliCommands(this.processedInput.commands);
 
     return this.service.load(this.processedInput.options)
-      .then(() =&#x3e; {
+      .then(() =&gt; {
         // load all plugins
         this.pluginManager.loadAllPlugins(this.service.plugins);
 
@@ -189,7 +182,7 @@
   }
 
   run() {
-    this.utils.logStat(this).catch(() =&#x3e; BbPromise.resolve());
+    this.utils.logStat(this).catch(() =&gt; BbPromise.resolve());
 
     if (this.cli.displayHelp(this.processedInput)) {
       return BbPromise.resolve();
@@ -209,7 +202,7 @@
     // validate the service configuration, now that variables are loaded
     this.service.validate();
 
-    // trigger the plugin lifecycle when there&#x27;s something which should be processed
+    // trigger the plugin lifecycle when there's something which should be processed
     return this.pluginManager.run(this.processedInput.commands);
   }
 
@@ -286,43 +279,43 @@
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">(e) =&#x3e; {
+    <li>description and source-code<pre class="apidocCodePre">(e) =&gt; {
   try {
-    const errorType = e.name.replace(/([A-Z])/g, &#x27; $1&#x27;);
+    const errorType = e.name.replace(/([A-Z])/g, ' $1');
 
     writeMessage(errorType, e.message);
 
-    if (e.name !== &#x27;ServerlessError&#x27;) {
+    if (e.name !== 'ServerlessError') {
       const errorMessage = [
-        &#x27;    &#x27;,
-        &#x27; For debugging logs, run again after setting the&#x27;,
-        &#x27; &#x22;SLS_DEBUG=*&#x22; environment variable.&#x27;,
-      ].join(&#x27;&#x27;);
+        '    ',
+        ' For debugging logs, run again after setting the',
+        ' "SLS_DEBUG=*" environment variable.',
+      ].join('');
       consoleLog(chalk.red(errorMessage));
-      consoleLog(&#x27; &#x27;);
+      consoleLog(' ');
     }
 
     if (process.env.SLS_DEBUG) {
-      consoleLog(chalk.yellow(&#x27;  Stack Trace --------------------------------------------&#x27;));
-      consoleLog(&#x27; &#x27;);
+      consoleLog(chalk.yellow('  Stack Trace --------------------------------------------'));
+      consoleLog(' ');
       consoleLog(e.stack);
-      consoleLog(&#x27; &#x27;);
+      consoleLog(' ');
     }
 
-    consoleLog(chalk.yellow(&#x27;  Get Support --------------------------------------------&#x27;));
-    consoleLog(`${chalk.yellow(&#x27;     Docs:          &#x27;)}${chalk.white(&#x27;docs.serverless.com&#x27;)}`);
-    consoleLog(`${chalk.yellow(&#x27;     Bugs:          &#x27;)}${chalk
-      .white(&#x27;github.com/serverless/serverless/issues&#x27;)}`);
-    consoleLog(`${chalk.yellow(&#x27;     Forums:        &#x27;)}${chalk.white(&#x27;forum.serverless.com&#x27;)}`);
-    consoleLog(`${chalk.yellow(&#x27;     Chat:          &#x27;)}${chalk
-            .white(&#x27;gitter.im/serverless/serverless&#x27;)}`);
+    consoleLog(chalk.yellow('  Get Support --------------------------------------------'));
+    consoleLog(`${chalk.yellow('     Docs:          ')}${chalk.white('docs.serverless.com')}`);
+    consoleLog(`${chalk.yellow('     Bugs:          ')}${chalk
+      .white('github.com/serverless/serverless/issues')}`);
+    consoleLog(`${chalk.yellow('     Forums:        ')}${chalk.white('forum.serverless.com')}`);
+    consoleLog(`${chalk.yellow('     Chat:          ')}${chalk
+            .white('gitter.im/serverless/serverless')}`);
 
-    consoleLog(&#x27; &#x27;);
-    consoleLog(chalk.yellow(&#x27;  Your Environment Information -----------------------------&#x27;));
+    consoleLog(' ');
+    consoleLog(chalk.yellow('  Your Environment Information -----------------------------'));
     consoleLog(chalk.yellow(`     OS:                 ${process.platform}`));
-    consoleLog(chalk.yellow(`     Node Version:       ${process.version.replace(/^[v|V]/, &#x27;&#x27;)}`));
+    consoleLog(chalk.yellow(`     Node Version:       ${process.version.replace(/^[v|V]/, '')}`));
     consoleLog(chalk.yellow(`     Serverless Version: ${version}`));
-    consoleLog(&#x27; &#x27;);
+    consoleLog(' ');
 
     // Failure exit
     process.exit(1);
@@ -342,8 +335,8 @@
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">(message) =&#x3e; {
-  writeMessage(&#x27;Serverless Warning&#x27;, message);
+    <li>description and source-code<pre class="apidocCodePre">(message) =&gt; {
+  writeMessage('Serverless Warning', message);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -357,3 +350,4 @@
     ]
 </div>
 </div>
+</body></html>

@@ -51,7 +51,7 @@
 
         href="https://github.com/serverless/serverless#readme"
 
-    >serverless (v1.10.2)</a>
+    >serverless (v1.11.0)</a>
 </h1>
 <h4>Serverless Framework - Build web, mobile and IoT applications with serverless architectures using AWS Lambda, Azure Functions, Google CloudFunctions & more</h4>
 <div class="apidocSectionDiv"><a
@@ -61,12 +61,293 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.serverless">module serverless</a><ol>
 
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.serverless.serverless">
+            function <span class="apidocSignatureSpan"></span>serverless
+            <span class="apidocSignatureSpan">(config)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">serverless.</span>Error</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.serverless.Error">module serverless.Error</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.serverless.Error.SError">
+            function <span class="apidocSignatureSpan">serverless.Error.</span>SError
+            <span class="apidocSignatureSpan">(message, statusCode)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.serverless.Error.ServerlessError">
+            function <span class="apidocSignatureSpan">serverless.Error.</span>ServerlessError
+            <span class="apidocSignatureSpan">(message, statusCode)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.serverless.Error.logError">
+            function <span class="apidocSignatureSpan">serverless.Error.</span>logError
+            <span class="apidocSignatureSpan">(e)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.serverless.Error.logWarning">
+            function <span class="apidocSignatureSpan">serverless.Error.</span>logWarning
+            <span class="apidocSignatureSpan">(message)</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.serverless" id="apidoc.module.serverless">module serverless</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.serverless.serverless" id="apidoc.element.serverless.serverless">
+        function <span class="apidocSignatureSpan"></span>serverless
+        <span class="apidocSignatureSpan">(config)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">class Serverless {
+  constructor(config) {
+    let configObject = config;
+    configObject = configObject || {};
+
+    this.providers = {};
+
+    this.version = Version;
+
+    this.yamlParser = new YamlParser(this);
+    this.utils = new Utils(this);
+    this.service = new Service(this);
+    this.variables = new Variables(this);
+    this.pluginManager = new PluginManager(this);
+
+    // use the servicePath from the options or try to find it in the CWD
+    configObject.servicePath = configObject.servicePath || this.utils.findServicePath();
+
+    this.config = new Config(this, configObject);
+
+    this.classes = {};
+    this.classes.CLI = CLI;
+    this.classes.YamlParser = YamlParser;
+    this.classes.Utils = Utils;
+    this.classes.Service = Service;
+    this.classes.Variables = Variables;
+    this.classes.Error = ServerlessError;
+    this.classes.PluginManager = PluginManager;
+
+    this.serverlessDirPath = path.join(os.homedir(), &#x27;.serverless&#x27;);
+  }
+
+  init() {
+    // create a new CLI instance
+    this.cli = new CLI(this);
+
+    // get an array of commands and options that should be processed
+    this.processedInput = this.cli.processInput();
+
+    // set the options and commands which were processed by the CLI
+    this.pluginManager.setCliOptions(this.processedInput.options);
+    this.pluginManager.setCliCommands(this.processedInput.commands);
+
+    return this.service.load(this.processedInput.options)
+      .then(() =&#x3e; {
+        // load all plugins
+        this.pluginManager.loadAllPlugins(this.service.plugins);
+
+        this.pluginManager.autoloadServerlessAlphaPlugin();
+
+        // give the CLI the plugins and commands so that it can print out
+        // information such as options when the user enters --help
+        this.cli.setLoadedPlugins(this.pluginManager.getPlugins());
+        this.cli.setLoadedCommands(this.pluginManager.getCommands());
+      });
+  }
+
+  run() {
+    this.utils.logStat(this).catch(() =&#x3e; BbPromise.resolve());
+
+    if (this.cli.displayHelp(this.processedInput)) {
+      return BbPromise.resolve();
+    }
+
+    // make sure the command exists before doing anything else
+    this.pluginManager.validateCommand(this.processedInput.commands);
+
+    // populate variables after --help, otherwise help may fail to print
+    // (https://github.com/serverless/serverless/issues/2041)
+    this.variables.populateService(this.pluginManager.cliOptions);
+
+    // populate function names after variables are loaded in case functions were externalized
+    // (https://github.com/serverless/serverless/issues/2997)
+    this.service.setFunctionNames(this.processedInput.options);
+
+    // validate the service configuration, now that variables are loaded
+    this.service.validate();
+
+    // trigger the plugin lifecycle when there&#x27;s something which should be processed
+    return this.pluginManager.run(this.processedInput.commands);
+  }
+
+  setProvider(name, provider) {
+    this.providers[name] = provider;
+  }
+
+  getProvider(name) {
+    return this.providers[name] ? this.providers[name] : false;
+  }
+
+  getVersion() {
+    return this.version;
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.serverless.Error" id="apidoc.module.serverless.Error">module serverless.Error</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.serverless.Error.SError" id="apidoc.element.serverless.Error.SError">
+        function <span class="apidocSignatureSpan">serverless.Error.</span>SError
+        <span class="apidocSignatureSpan">(message, statusCode)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">class ServerlessError extends Error {
+  constructor(message, statusCode) {
+    super(message);
+    this.name = this.constructor.name;
+    this.message = message;
+    this.statusCode = statusCode;
+    Error.captureStackTrace(this, this.constructor);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.serverless.Error.ServerlessError" id="apidoc.element.serverless.Error.ServerlessError">
+        function <span class="apidocSignatureSpan">serverless.Error.</span>ServerlessError
+        <span class="apidocSignatureSpan">(message, statusCode)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">class ServerlessError extends Error {
+  constructor(message, statusCode) {
+    super(message);
+    this.name = this.constructor.name;
+    this.message = message;
+    this.statusCode = statusCode;
+    Error.captureStackTrace(this, this.constructor);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.serverless.Error.logError" id="apidoc.element.serverless.Error.logError">
+        function <span class="apidocSignatureSpan">serverless.Error.</span>logError
+        <span class="apidocSignatureSpan">(e)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">(e) =&#x3e; {
+  try {
+    const errorType = e.name.replace(/([A-Z])/g, &#x27; $1&#x27;);
+
+    writeMessage(errorType, e.message);
+
+    if (e.name !== &#x27;ServerlessError&#x27;) {
+      const errorMessage = [
+        &#x27;    &#x27;,
+        &#x27; For debugging logs, run again after setting the&#x27;,
+        &#x27; &#x22;SLS_DEBUG=*&#x22; environment variable.&#x27;,
+      ].join(&#x27;&#x27;);
+      consoleLog(chalk.red(errorMessage));
+      consoleLog(&#x27; &#x27;);
+    }
+
+    if (process.env.SLS_DEBUG) {
+      consoleLog(chalk.yellow(&#x27;  Stack Trace --------------------------------------------&#x27;));
+      consoleLog(&#x27; &#x27;);
+      consoleLog(e.stack);
+      consoleLog(&#x27; &#x27;);
+    }
+
+    consoleLog(chalk.yellow(&#x27;  Get Support --------------------------------------------&#x27;));
+    consoleLog(`${chalk.yellow(&#x27;     Docs:          &#x27;)}${chalk.white(&#x27;docs.serverless.com&#x27;)}`);
+    consoleLog(`${chalk.yellow(&#x27;     Bugs:          &#x27;)}${chalk
+      .white(&#x27;github.com/serverless/serverless/issues&#x27;)}`);
+    consoleLog(`${chalk.yellow(&#x27;     Forums:        &#x27;)}${chalk.white(&#x27;forum.serverless.com&#x27;)}`);
+    consoleLog(`${chalk.yellow(&#x27;     Chat:          &#x27;)}${chalk
+            .white(&#x27;gitter.im/serverless/serverless&#x27;)}`);
+
+    consoleLog(&#x27; &#x27;);
+    consoleLog(chalk.yellow(&#x27;  Your Environment Information -----------------------------&#x27;));
+    consoleLog(chalk.yellow(`     OS:                 ${process.platform}`));
+    consoleLog(chalk.yellow(`     Node Version:       ${process.version.replace(/^[v|V]/, &#x27;&#x27;)}`));
+    consoleLog(chalk.yellow(`     Serverless Version: ${version}`));
+    consoleLog(&#x27; &#x27;);
+
+    // Failure exit
+    process.exit(1);
+  } catch (errorHandlingError) {
+    throw new Error(e);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.serverless.Error.logWarning" id="apidoc.element.serverless.Error.logWarning">
+        function <span class="apidocSignatureSpan">serverless.Error.</span>logWarning
+        <span class="apidocSignatureSpan">(message)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">(message) =&#x3e; {
+  writeMessage(&#x27;Serverless Warning&#x27;, message);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 </div>
 
